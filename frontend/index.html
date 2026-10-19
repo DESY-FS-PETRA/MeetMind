@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeetMind — AI Meeting Intelligence</title>
+    <link rel="stylesheet" href="style.css?v=20260826-conf3">
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']],
+                processEscapes: true
+            },
+            options: {
+                skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+            }
+        };
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/mathjax@4.0.0/tex-chtml.js"></script>
+</head>
+<body>
+    <section id="workspaceLanding" class="workspace-landing">
+        <div class="workspace-landing-inner">
+            <div class="workspace-brand">
+                <p class="eyebrow">SCIENTIFIC KNOWLEDGE ASSISTANT</p>
+                <h1><span>Meet</span><strong>Mind</strong></h1>
+                <p>Choose how you want to capture and reuse scientific conversations.</p>
+            </div>
+            <div class="workspace-choice-grid">
+                <button id="enterMeetingsBtn" class="workspace-choice workspace-choice-meeting" type="button">
+                    <span class="workspace-choice-icon">◉</span>
+                    <span class="workspace-choice-kicker">GROUP WORKSPACE</span>
+                    <strong>Meetings</strong>
+                    <span>Live transcription, slides, summaries, meeting history and cross-meeting RAG.</span>
+                    <em>Enter Meetings →</em>
+                </button>
+                <button id="enterConferencesBtn" class="workspace-choice workspace-choice-conference" type="button">
+                    <span class="workspace-choice-icon">✦</span>
+                    <span class="workspace-choice-kicker">EVENT WORKSPACE</span>
+                    <strong>Conferences</strong>
+                    <span>Import programs, organize talks, preload scientific context, record talks and query the conference memory.</span>
+                    <em>Enter Conferences →</em>
+                </button>
+            </div>
+            <p class="workspace-local-note">Meetings and conference memories stay separated by default.</p>
+        </div>
+    </section>
+    <main id="appShell" class="app-shell is-hidden">
+        <header class="hero">
+            <div class="brand-lockup">
+                <div class="brand-topline">
+                    <h1 class="brand-wordmark" aria-label="MeetMind"><span class="brand-accent">Me</span><span>et</span><span class="brand-accent">Mi</span><span>nd</span></h1>
+                    <svg class="brand-signal" viewBox="0 0 220 54" aria-hidden="true">
+                        <path d="M4 31 C18 31 18 21 32 21 S46 40 60 31 S74 11 88 27 S104 39 116 25 S132 14 146 30 S162 39 174 24 S194 23 216 29" fill="none" pathLength="100"/>
+                        <g>
+                            <circle cx="82" cy="16" r="2.5"/><circle cx="95" cy="11" r="2"/><circle cx="106" cy="18" r="2.5"/>
+                            <circle cx="90" cy="28" r="2"/><circle cx="104" cy="31" r="2.5"/><circle cx="115" cy="25" r="2"/>
+                            <path d="M82 16 L95 11 L106 18 L115 25 L104 31 L90 28 Z M95 11 L104 31 M82 16 L115 25"/>
+                        </g>
+                    </svg>
+                </div>
+                <p class="eyebrow">AI MEETING INTELLIGENCE</p>
+                <p class="subtitle">Transcribe, understand, remember, and query your meetings — locally.</p>
+            </div>
+            <div class="hero-actions">
+                <nav class="view-tabs" aria-label="Application sections">
+                    <button id="newMeetingTab" class="view-tab is-active" type="button">New Meeting</button>
+                    <button id="historyTab" class="view-tab" type="button">Meeting History</button>
+                    <button id="chatTab" class="view-tab" type="button">Chat</button>
+                    <button id="conferenceTab" class="view-tab is-hidden" type="button">Conference</button>
+                </nav>
+                <button id="workspaceHomeBtn" class="button button-secondary button-compact" type="button">Workspaces</button>
+                <span id="vocabularyBadge" class="badge badge-vocabulary">Scientific vocabulary · loading</span>
+                <span id="providerBadge" class="badge badge-muted">Summary not generated</span>
+            </div>
+        </header>
+
+        <section id="newMeetingView">
+            <section class="control-card">
+                <label for="meetingTitle">Meeting title</label>
+                <div class="control-row">
+                    <input id="meetingTitle" type="text" value="Conference Meeting" maxlength="200">
+                    <button id="startBtn" class="button button-primary">Start Meeting</button>
+                    <button id="stopBtn" class="button button-danger">Stop &amp; Summarize</button>
+                </div>
+                <div class="presentation-upload-row">
+                    <div>
+                        <label for="presentationFile">Presentation (PPTX or PDF)</label>
+                        <input id="presentationFile" type="file" accept=".pptx,.pdf,application/pdf,application/vnd.openxmlformats-officedocument.presentationml.presentation">
+                    </div>
+                    <button id="uploadPresentationBtn" class="button button-secondary" type="button">Upload slides</button>
+                    <span id="presentationStatus" class="presentation-status">No presentation uploaded</span>
+                </div>
+                <div id="presentationContext" class="presentation-context is-hidden">
+                    <div class="presentation-context-heading">
+                        <div>
+                            <strong id="presentationTitle"></strong>
+                            <span id="presentationMeta"></span>
+                        </div>
+                        <span id="currentSlideBadge" class="badge badge-slide">Slide context ready</span>
+                    </div>
+                    <div class="slide-control-row">
+                        <label for="slideControl">Slide tracking</label>
+                        <select id="slideControl" disabled>
+                            <option value="auto">Automatic slide matching</option>
+                        </select>
+                        <span id="slideKeywords" class="slide-keywords"></span>
+                    </div>
+                </div>
+                <div class="audio-mode-row">
+                    <label for="audioMode">Audio capture mode</label>
+                    <select id="audioMode">
+                        <option value="meeting">Meeting microphone (processed)</option>
+                        <option value="accuracy">Raw microphone diagnostic</option>
+                        <option value="recorded">Fast recorded meeting</option>
+                        <option value="file">Audio file streaming test (real-time regression)</option>
+                    </select>
+                    <p id="audioModeHelp">Use this for a person speaking directly into the microphone.</p>
+                </div>
+                <div id="testAudioFileRow" class="file-test-row is-hidden">
+                    <label for="testAudioFile">Recorded audio/video file</label>
+                    <input id="testAudioFile" type="file" accept="audio/*,video/*,.wav,.mp3,.m4a,.ogg,.webm,.flac,.mp4,.mov,.mkv,.aac,.opus">
+                    <span>The file is not played through the speakers.</span>
+                </div>
+                <div class="diagnostic-row">
+                    <div id="status" class="status" role="status">Idle</div>
+                    <a id="capturedAudioLink" class="diagnostic-link is-hidden">Download exact browser-captured audio</a>
+                </div>
+                <div id="processingProgress" class="processing-progress is-hidden" aria-live="polite">
+                    <div class="processing-progress-head">
+                        <span id="processingProgressLabel">Preparing…</span>
+                        <span id="processingProgressPercent"></span>
+                    </div>
+                    <div class="processing-progress-track" role="progressbar" aria-label="Meeting processing progress" aria-valuemin="0" aria-valuemax="100">
+                        <div id="processingProgressBar" class="processing-progress-bar"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="content-grid">
+                <article class="panel transcript-panel">
+                    <div class="panel-heading">
+                        <div>
+                            <p class="section-kicker">STREAMING</p>
+                            <h2>Live Transcript</h2>
+                        </div>
+                        <div class="transcript-heading-meta">
+                            <span class="confidence-legend"><span></span>Highlighted words need review</span>
+                            <span id="transcriptCount" class="counter">0 segments</span>
+                        </div>
+                    </div>
+                    <div id="transcript" class="transcript" aria-live="polite">
+                        <p class="empty-state">Start a meeting to capture live speech.</p>
+                    </div>
+                </article>
+
+                <article id="summaryPanel" class="panel summary-panel is-hidden">
+                    <div class="panel-heading">
+                        <div>
+                            <p class="section-kicker">POST-MEETING</p>
+                            <h2>Meeting Intelligence</h2>
+                        </div>
+                        <button id="regenerateBtn" class="button button-secondary">Regenerate</button>
+                    </div>
+
+                    <section class="summary-section">
+                        <h3>Executive Summary</h3>
+                        <p id="summaryText"></p>
+                    </section>
+
+                    <section class="summary-section">
+                        <h3>Slide-by-Slide Summary</h3>
+                        <div id="slideSummaries" class="slide-summaries"></div>
+                    </section>
+
+                    <div class="insight-grid">
+                        <section class="summary-section">
+                            <h3>Key Points</h3>
+                            <ul id="keyPoints"></ul>
+                        </section>
+
+                        <section class="summary-section">
+                            <h3>Decisions</h3>
+                            <ul id="decisions"></ul>
+                        </section>
+
+                        <section class="summary-section insight-wide">
+                            <h3>Action Items</h3>
+                            <div id="actionItems" class="action-items"></div>
+                        </section>
+
+                        <section class="summary-section insight-wide">
+                            <h3>Discussion Q&amp;A</h3>
+                            <div id="discussionQuestions" class="qa-list"></div>
+                        </section>
+
+                        <section class="summary-section insight-wide">
+                            <h3>Open Questions</h3>
+                            <ul id="openQuestions"></ul>
+                        </section>
+
+                        <section class="summary-section">
+                            <h3>Technical Terms</h3>
+                            <div id="technicalTerms" class="term-chips"></div>
+                        </section>
+
+                        <section class="summary-section">
+                            <h3>Scientific Review Queue</h3>
+                            <ul id="transcriptionUncertainties"></ul>
+                        </section>
+                    </div>
+                </article>
+            </section>
+        </section>
+
+        <section id="historyView" class="is-hidden">
+            <section class="history-header panel section-hero">
+                <div class="section-title-row">
+                    <span class="section-icon" aria-hidden="true">↶</span>
+                    <div>
+                        <p class="section-kicker">MEETING ARCHIVE</p>
+                        <h2>Meeting History</h2>
+                        <p>Browse, search, and inspect your completed meetings and scientific summaries.</p>
+                    </div>
+                </div>
+                <button id="refreshHistoryBtn" class="button button-secondary" type="button">Refresh</button>
+            </section>
+
+            <section class="history-stats" aria-label="Meeting history statistics">
+                <article class="stat-card">
+                    <span id="historyTotal">0</span>
+                    <p>Total meetings</p>
+                </article>
+                <article class="stat-card">
+                    <span id="historyCompleted">0</span>
+                    <p>Completed</p>
+                </article>
+                <article class="stat-card">
+                    <span id="historyAverageConfidence">—</span>
+                    <p>Average confidence</p>
+                </article>
+            </section>
+
+            <section class="history-toolbar panel">
+                <label for="historySearch">Search title or transcript</label>
+                <div class="history-search-row">
+                    <input id="historySearch" type="search" placeholder="Search meetings...">
+                    <button id="historySearchBtn" class="button button-primary" type="button">Search</button>
+                    <button id="historyClearBtn" class="button button-secondary" type="button">Clear</button>
+                </div>
+                <div id="historyStatus" class="status" role="status"></div>
+            </section>
+
+            <section class="history-layout">
+                <article class="panel history-list-panel">
+                    <div class="panel-heading">
+                        <div>
+                            <p class="section-kicker">ARCHIVE</p>
+                            <h2>Meetings</h2>
+                        </div>
+                        <span id="historyCount" class="counter">0 meetings</span>
+                    </div>
+                    <div id="historyList" class="history-list">
+                        <p class="empty-state">Open Meeting History to load saved meetings.</p>
+                    </div>
+                </article>
+
+                <article id="historyDetail" class="panel history-detail-panel">
+                    <div id="historyDetailEmpty" class="history-detail-empty">
+                        <p>Select a meeting to inspect its transcript, confidence, summary, and action items.</p>
+                    </div>
+                    <div id="historyDetailContent" class="is-hidden">
+                        <div class="history-detail-heading">
+                            <div class="history-title-edit">
+                                <label for="historyTitleInput">Meeting title</label>
+                                <input id="historyTitleInput" type="text" maxlength="200">
+                            </div>
+                            <div class="history-detail-actions">
+                                <button id="saveHistoryTitleBtn" class="button button-primary" type="button">Save title</button>
+                                <button id="deleteHistoryBtn" class="button button-danger" type="button">Delete</button>
+                            </div>
+                        </div>
+
+                        <div id="historyMetadata" class="history-metadata"></div>
+
+                        <section class="history-detail-section">
+                            <div class="history-section-title">
+                                <h3>Final Transcript</h3>
+                                <span id="historyConfidence" class="confidence-summary"></span>
+                            </div>
+                            <div id="historyTranscript" class="history-transcript"></div>
+                        </section>
+
+                        <section class="history-detail-section">
+                            <h3>Executive Summary</h3>
+                            <p id="historySummaryText"></p>
+                        </section>
+
+                        <section class="history-detail-section">
+                            <h3>Slide-by-Slide Summary</h3>
+                            <div id="historySlideSummaries" class="slide-summaries"></div>
+                        </section>
+
+                        <div class="history-insight-grid">
+                            <section class="history-detail-section">
+                                <h3>Key Points</h3>
+                                <ul id="historyKeyPoints"></ul>
+                            </section>
+                            <section class="history-detail-section">
+                                <h3>Decisions</h3>
+                                <ul id="historyDecisions"></ul>
+                            </section>
+                            <section class="history-detail-section history-insight-wide">
+                                <h3>Action Items</h3>
+                                <div id="historyActionItems" class="action-items"></div>
+                            </section>
+                            <section class="history-detail-section history-insight-wide">
+                                <h3>Discussion Q&amp;A</h3>
+                                <div id="historyDiscussionQuestions" class="qa-list"></div>
+                            </section>
+                            <section class="history-detail-section history-insight-wide">
+                                <h3>Open Questions</h3>
+                                <ul id="historyOpenQuestions"></ul>
+                            </section>
+                            <section class="history-detail-section">
+                                <h3>Technical Terms</h3>
+                                <div id="historyTechnicalTerms" class="term-chips"></div>
+                            </section>
+                            <section class="history-detail-section">
+                                <h3>Scientific Review Queue</h3>
+                                <ul id="historyTranscriptionUncertainties"></ul>
+                            </section>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </section>
+
+        <section id="chatView" class="is-hidden">
+            <section class="chat-header panel section-hero">
+                <div class="section-title-row">
+                    <span class="section-icon section-icon-chat" aria-hidden="true">✦</span>
+                    <div>
+                        <p class="section-kicker">CROSS-MEETING INTELLIGENCE</p>
+                        <h2>Ask your meeting archive</h2>
+                        <p>Ask scientific questions across your meetings. Meeting-specific claims stay grounded in retrieved evidence.</p>
+                    </div>
+                </div>
+                <div class="chat-index-actions">
+                    <span id="ragStatusBadge" class="badge badge-muted">RAG status loading…</span>
+                    <button id="ragReindexBtn" class="button button-secondary" type="button">Reindex meetings</button>
+                </div>
+            </section>
+
+            <section class="rag-stats" aria-label="RAG index statistics">
+                <article class="stat-card">
+                    <span id="ragIndexedMeetings">0</span>
+                    <p>Indexed meetings</p>
+                </article>
+                <article class="stat-card">
+                    <span id="ragChunkCount">0</span>
+                    <p>Knowledge chunks</p>
+                </article>
+                <article class="stat-card">
+                    <span id="ragRetrievalMode">Lexical</span>
+                    <p>Retrieval mode</p>
+                </article>
+            </section>
+
+            <section class="panel chat-panel">
+                <div id="chatThread" class="chat-thread" aria-live="polite">
+                    <div class="chat-welcome">
+                        <p class="section-kicker">MEETMIND KNOWLEDGE</p>
+                        <h3>Ask across your meeting memory</h3>
+                        <p>Examples: “Which meetings discussed ASTRA Toolbox?”, “Compare the topics across all meetings”, “Summarize unresolved questions across meetings”, or “Tell me about Otsu segmentation”. Meeting-specific claims remain cited to the exact meeting.</p>
+                    </div>
+                </div>
+                <div class="chat-composer">
+                    <textarea id="chatInput" rows="3" maxlength="4000" placeholder="Ask about your meetings or a general scientific topic…"></textarea>
+                    <div class="chat-composer-actions">
+                        <span id="chatStatus" class="chat-status">Ready</span>
+                        <button id="chatClearBtn" class="button button-secondary" type="button">Clear chat</button>
+                        <button id="chatSendBtn" class="button button-primary" type="button">Ask</button>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section id="conferenceView" class="is-hidden">
+            <section class="conference-hero panel section-hero">
+                <div class="section-title-row">
+                    <span class="section-icon section-icon-conference" aria-hidden="true">✦</span>
+                    <div>
+                        <p class="section-kicker">CONFERENCE MODE</p>
+                        <h2 id="conferenceHeroTitle">Conference Hub</h2>
+                        <p id="conferenceHeroSubtitle">Create a conference, import its program, and turn each talk into searchable scientific memory.</p>
+                    </div>
+                </div>
+                <div class="conference-hero-actions">
+                    <button id="newConferenceBtn" class="button button-primary" type="button">+ New Conference</button>
+                    <button id="refreshConferencesBtn" class="button button-secondary" type="button">Refresh</button>
+                </div>
+            </section>
+
+            <section id="conferenceCreatePanel" class="panel conference-create is-hidden">
+                <div class="panel-heading"><div><p class="section-kicker">NEW WORKSPACE</p><h2>Create Conference</h2></div></div>
+                <div class="conference-form-grid">
+                    <label>Name<input id="conferenceNameInput" type="text" placeholder="XRM 2026"></label>
+                    <label>Location<input id="conferenceLocationInput" type="text" placeholder="Campinas, Brazil"></label>
+                    <label>Start date<input id="conferenceStartInput" type="date"></label>
+                    <label>End date<input id="conferenceEndInput" type="date"></label>
+                    <label class="conference-form-wide">Program URL<input id="conferenceProgramUrlInput" type="url" placeholder="https://…"></label>
+                    <label class="conference-form-wide">Global scientific terms<input id="conferenceTermsInput" type="text" placeholder="ptychography, phase retrieval, tomography, FRC, ASTRA…"></label>
+                </div>
+                <div class="conference-create-actions">
+                    <button id="cancelConferenceCreateBtn" class="button button-secondary" type="button">Cancel</button>
+                    <button id="saveConferenceBtn" class="button button-primary" type="button">Create Conference</button>
+                </div>
+                <div id="conferenceCreateStatus" class="status"></div>
+            </section>
+
+            <section id="conferenceHubLayout" class="conference-hub-layout">
+                <aside class="panel conference-sidebar">
+                    <div class="panel-heading"><div><p class="section-kicker">YOUR EVENTS</p><h2>Conferences</h2></div></div>
+                    <div id="conferenceList" class="conference-list"><p class="empty-state">No conferences yet.</p></div>
+                </aside>
+
+                <div id="conferenceEmpty" class="panel conference-empty">
+                    <div class="conference-empty-icon">✦</div>
+                    <h2>Build a conference memory</h2>
+                    <p>Create a conference, import the official program, then open a talk to preload its scientific context before recording.</p>
+                    <button id="conferenceEmptyCreateBtn" class="button button-primary" type="button">Create your first conference</button>
+                </div>
+
+                <div id="conferenceDetail" class="conference-detail is-hidden">
+                    <section class="conference-summary-strip">
+                        <article><strong id="conferenceTalkCount">0</strong><span>Talks</span></article>
+                        <article><strong id="conferenceRecordedCount">0</strong><span>Processed</span></article>
+                        <article><strong id="conferenceInterestingCount">0</strong><span>Interesting</span></article>
+                        <article><strong id="conferenceDayCount">0</strong><span>Days</span></article>
+                    </section>
+
+                    <section class="panel conference-import-panel">
+                        <div>
+                            <p class="section-kicker">PROGRAM INGESTION</p>
+                            <h3>Import conference metadata</h3>
+                            <p>MeetMind uses titles, sessions, abstracts and keywords to build a talk-specific ASR context pack.</p>
+                        </div>
+                        <div class="conference-import-actions">
+                            <input id="conferenceImportUrl" type="url" placeholder="Official program URL">
+                            <button id="importConferenceUrlBtn" class="button button-primary" type="button">Import URL</button>
+                            <label class="button button-secondary conference-file-button">Import JSON<input id="conferenceJsonFile" type="file" accept=".json,application/json"></label>
+                        </div>
+                        <div id="conferenceImportStatus" class="status"></div>
+                    </section>
+
+                    <section class="panel conference-schedule-panel">
+                        <div class="conference-toolbar">
+                            <div><p class="section-kicker">SCHEDULE</p><h2>Talks by day, time &amp; room</h2></div>
+                            <div class="conference-filter-row">
+                                <input id="conferenceTalkSearch" type="search" placeholder="Search title, speaker, method…">
+                                <select id="conferenceDayFilter"><option value="">All days</option></select>
+                                <label class="conference-star-filter"><input id="conferenceInterestingOnly" type="checkbox"> ★ Interesting</label>
+                            </div>
+                        </div>
+                        <div id="conferenceSchedule" class="conference-schedule"><p class="empty-state">Import a program or add talks to populate the schedule.</p></div>
+                    </section>
+
+                    <section id="conferenceTalkDetail" class="panel conference-talk-detail is-hidden">
+                        <div class="conference-talk-detail-head">
+                            <div>
+                                <p id="conferenceTalkMeta" class="section-kicker"></p>
+                                <h2 id="conferenceTalkTitle"></h2>
+                                <p id="conferenceTalkSpeaker" class="conference-talk-speaker"></p>
+                            </div>
+                            <button id="closeConferenceTalkBtn" class="button button-secondary" type="button">Close</button>
+                        </div>
+                        <div class="conference-talk-detail-grid">
+                            <div>
+                                <h3>Scientific context pack</h3>
+                                <p class="field-help">These terms are sent as bounded ASR bias for this talk; they are not treated as transcript evidence.</p>
+                                <div id="conferenceTalkContext" class="term-chips"></div>
+                                <h3>Abstract / program text</h3>
+                                <p id="conferenceTalkAbstract" class="conference-abstract"></p>
+                            </div>
+                            <div class="conference-talk-actions-card">
+                                <button id="recordConferenceTalkBtn" class="button button-primary button-large" type="button">Record / Process this Talk</button>
+                                <button id="toggleInterestingTalkBtn" class="button button-secondary" type="button">☆ Mark Interesting</button>
+                                <label>My notes<textarea id="conferenceTalkNotes" rows="6" placeholder="Questions, follow-up ideas, people to contact…"></textarea></label>
+                                <button id="saveConferenceTalkNotesBtn" class="button button-secondary" type="button">Save notes</button>
+                                <div id="conferenceTalkLinkedMeeting" class="conference-linked-meeting"></div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="panel conference-chat-panel">
+                        <div class="conference-chat-head">
+                            <div><p class="section-kicker">CONFERENCE RAG</p><h2>Ask the conference memory</h2></div>
+                            <select id="conferenceChatScope">
+                                <option value="conference">Whole conference</option>
+                                <option value="day">Selected day</option>
+                                <option value="session">Selected talk session</option>
+                            </select>
+                        </div>
+                        <div id="conferenceChatThread" class="conference-chat-thread">
+                            <p class="empty-state">After talks are processed, ask: “Which reconstruction methods were presented?”, “What limitations appeared repeatedly?”, or “Compare today’s phase-retrieval talks.”</p>
+                        </div>
+                        <div class="conference-chat-compose">
+                            <textarea id="conferenceChatInput" rows="2" maxlength="4000" placeholder="Ask about this conference…"></textarea>
+                            <button id="conferenceChatAskBtn" class="button button-primary" type="button">Ask</button>
+                        </div>
+                        <div id="conferenceChatStatus" class="status"></div>
+                    </section>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <script src="app.js?v=20260826-conf3"></script>
+</body>
+</html>
