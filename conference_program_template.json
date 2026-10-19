@@ -1,0 +1,19 @@
+{
+  "talks": [
+    {
+      "external_id": "TALK-001",
+      "title": "Deep-learning phase retrieval for coherent X-ray imaging",
+      "speaker": "Jane Smith",
+      "institution": "Example Light Source",
+      "day_label": "Monday, 31 Aug 2026",
+      "start_at": "09:30",
+      "end_at": "09:45",
+      "room": "Auditorium",
+      "session_name": "Software and AI-related Developments",
+      "track": "AI & Software",
+      "abstract": "Optional program abstract text.",
+      "keywords": ["phase retrieval", "coherent X-ray imaging", "deep learning", "FRC"],
+      "context_terms": ["TomoPy", "ASTRA Toolbox"]
+    }
+  ]
+}
