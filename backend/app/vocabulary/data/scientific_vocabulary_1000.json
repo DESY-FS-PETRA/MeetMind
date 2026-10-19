@@ -1,0 +1,7562 @@
+{
+  "version": "1.1-slide-aware-cleanup",
+  "description": "Adaptive scientific vocabulary for synchrotron, X-ray imaging, holography, ptychography, tomography, AI/ML, scientific computing and research projects.",
+  "term_count": 1001,
+  "category_count": 12,
+  "categories": {
+    "synchrotron_beamline": {
+      "label": "Synchrotron, accelerator and beamline",
+      "description": "Synchrotron radiation, storage rings, insertion devices, beamline operation and beam diagnostics.",
+      "keywords": [
+        "synchrotron",
+        "beamline",
+        "beamtime",
+        "storage ring",
+        "undulator",
+        "monochromator",
+        "photon flux",
+        "brilliance",
+        "beam current",
+        "insertion device",
+        "PETRA",
+        "XFEL"
+      ]
+    },
+    "xray_optics_microscopy": {
+      "label": "X-ray optics and microscopy",
+      "description": "Refractive, reflective and diffractive X-ray optics, focusing and scanning microscopy.",
+      "keywords": [
+        "x-ray optics",
+        "microscopy",
+        "lens",
+        "zone plate",
+        "KB mirror",
+        "nano-focus",
+        "wavefront",
+        "focal spot",
+        "scanning microscopy",
+        "refractive optics"
+      ]
+    },
+    "holography_phase_coherence": {
+      "label": "Holography, phase contrast and coherence",
+      "description": "Near- and far-field holography, propagation, phase retrieval and coherent imaging.",
+      "keywords": [
+        "holography",
+        "near-field",
+        "far-field",
+        "phase retrieval",
+        "phase recovery",
+        "Fresnel",
+        "Fraunhofer",
+        "coherence",
+        "wavefield",
+        "phase contrast"
+      ]
+    },
+    "ptychography_cdi": {
+      "label": "Ptychography and coherent diffraction imaging",
+      "description": "Ptychographic acquisition, reconstruction engines, CDI and multi-slice methods.",
+      "keywords": [
+        "ptychography",
+        "ptychographic",
+        "CDI",
+        "coherent diffraction",
+        "ePIE",
+        "difference map",
+        "probe retrieval",
+        "object retrieval",
+        "multi-slice",
+        "scan positions"
+      ]
+    },
+    "tomography_inverse": {
+      "label": "Tomography and inverse problems",
+      "description": "CT geometries, reconstruction algorithms, regularization and inverse-problem methods.",
+      "keywords": [
+        "tomography",
+        "computed tomography",
+        "sinogram",
+        "Radon",
+        "reconstruction",
+        "inverse problem",
+        "ASTRA",
+        "TomoPy",
+        "filtered back projection",
+        "SIRT",
+        "CGLS",
+        "regularization"
+      ]
+    },
+    "spectroscopy_scanning_materials": {
+      "label": "Scanning modalities, spectroscopy and materials",
+      "description": "XRF, XBIC, XEOL, diffraction microscopy, spectroscopy and materials characterization.",
+      "keywords": [
+        "XRF",
+        "XBIC",
+        "XEOL",
+        "XRD",
+        "diffraction",
+        "spectroscopy",
+        "Compton",
+        "photovoltaics",
+        "thin film",
+        "fluorescence",
+        "absorption edge"
+      ]
+    },
+    "detectors_acquisition": {
+      "label": "Detectors, acquisition and calibration",
+      "description": "Area detectors, scintillators, acquisition settings, calibration and corrections.",
+      "keywords": [
+        "detector",
+        "scintillator",
+        "Eiger",
+        "Lambda",
+        "sCMOS",
+        "flat-field",
+        "dark-field",
+        "exposure time",
+        "pixel size",
+        "dynamic range",
+        "calibration"
+      ]
+    },
+    "ai_ml_image_processing": {
+      "label": "AI, machine learning and image processing",
+      "description": "Machine learning, deep learning, computer vision and scientific image analysis.",
+      "keywords": [
+        "AI",
+        "machine learning",
+        "deep learning",
+        "neural network",
+        "U-Net",
+        "autoencoder",
+        "segmentation",
+        "classification",
+        "denoising",
+        "PyTorch",
+        "TensorFlow"
+      ]
+    },
+    "software_hpc": {
+      "label": "Scientific software, programming and HPC",
+      "description": "Scientific Python, C++, CUDA, clusters, reconstruction software and visualization tools.",
+      "keywords": [
+        "Python",
+        "C++",
+        "CUDA",
+        "OpenMP",
+        "Maxwell",
+        "MATLAB",
+        "PtyPy",
+        "PyNX",
+        "pyFAI",
+        "Git",
+        "HDF5",
+        "HPC",
+        "GPU"
+      ]
+    },
+    "simulation_optimization": {
+      "label": "Simulation, numerical methods and optimization",
+      "description": "Wave propagation, Monte Carlo, numerical solvers, optimization and uncertainty.",
+      "keywords": [
+        "simulation",
+        "Monte Carlo",
+        "numerical",
+        "optimization",
+        "gradient descent",
+        "finite difference",
+        "forward model",
+        "inverse model",
+        "regularization",
+        "uncertainty"
+      ]
+    },
+    "experimental_materials": {
+      "label": "Experimental methods and materials science",
+      "description": "Sample environments, deposition, microscopy, photovoltaics and materials experiments.",
+      "keywords": [
+        "sample",
+        "thin-film deposition",
+        "sputtering",
+        "SEM",
+        "TEM",
+        "AFM",
+        "in situ",
+        "operando",
+        "photovoltaic",
+        "nanostructure",
+        "sample preparation"
+      ]
+    },
+    "writing_projects": {
+      "label": "Scientific writing, proposals and EU projects",
+      "description": "Scientific papers, proposals, work packages, deliverables and project strategy.",
+      "keywords": [
+        "proposal",
+        "scientific writing",
+        "paper",
+        "manuscript",
+        "EU project",
+        "Horizon Europe",
+        "work package",
+        "deliverable",
+        "milestone",
+        "grant",
+        "reviewer"
+      ]
+    }
+  },
+  "terms": [
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "synchrotron radiation",
+      "aliases": [],
+      "priority": "core",
+      "id": 1
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "storage ring",
+      "aliases": [],
+      "priority": "core",
+      "id": 2
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "undulator",
+      "aliases": [],
+      "priority": "core",
+      "id": 3
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "beamline",
+      "aliases": [],
+      "priority": "core",
+      "id": 4
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "beamtime",
+      "aliases": [],
+      "priority": "core",
+      "id": 5
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "photon flux",
+      "aliases": [],
+      "priority": "core",
+      "id": 6
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "monochromator",
+      "aliases": [],
+      "priority": "core",
+      "id": 7
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "PETRA III",
+      "aliases": [
+        "PETRA 3",
+        "Petra three",
+        "petra tree"
+      ],
+      "priority": "core",
+      "id": 8
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "PETRA IV",
+      "aliases": [
+        "PETRA 4",
+        "Petra four",
+        "TRA 4",
+        "TRA-4"
+      ],
+      "priority": "core",
+      "id": 9
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "European XFEL",
+      "aliases": [
+        "European X F E L",
+        "European exfel"
+      ],
+      "priority": "core",
+      "id": 10
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "electron storage ring",
+      "aliases": [],
+      "priority": "domain",
+      "id": 11
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "linear accelerator",
+      "aliases": [],
+      "priority": "domain",
+      "id": 12
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "LINAC",
+      "aliases": [],
+      "priority": "domain",
+      "id": 13
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "booster synchrotron",
+      "aliases": [],
+      "priority": "domain",
+      "id": 14
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "electron beam",
+      "aliases": [],
+      "priority": "domain",
+      "id": 15
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "photon beam",
+      "aliases": [],
+      "priority": "domain",
+      "id": 16
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "insertion device",
+      "aliases": [],
+      "priority": "domain",
+      "id": 17
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "planar undulator",
+      "aliases": [],
+      "priority": "domain",
+      "id": 18
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "helical undulator",
+      "aliases": [],
+      "priority": "domain",
+      "id": 19
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "in-vacuum undulator",
+      "aliases": [],
+      "priority": "domain",
+      "id": 20
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "cryogenic permanent magnet undulator",
+      "aliases": [],
+      "priority": "domain",
+      "id": 21
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "wiggler",
+      "aliases": [],
+      "priority": "domain",
+      "id": 22
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "bending magnet",
+      "aliases": [],
+      "priority": "domain",
+      "id": 23
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "beam current",
+      "aliases": [],
+      "priority": "domain",
+      "id": 24
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "stored current",
+      "aliases": [],
+      "priority": "domain",
+      "id": 25
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "bunch pattern",
+      "aliases": [],
+      "priority": "domain",
+      "id": 26
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "bunch train",
+      "aliases": [],
+      "priority": "domain",
+      "id": 27
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "bunch length",
+      "aliases": [],
+      "priority": "domain",
+      "id": 28
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "bunch spacing",
+      "aliases": [],
+      "priority": "domain",
+      "id": 29
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "top-up injection",
+      "aliases": [],
+      "priority": "domain",
+      "id": 30
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "spectral flux",
+      "aliases": [],
+      "priority": "domain",
+      "id": 31
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "brilliance",
+      "aliases": [],
+      "priority": "domain",
+      "id": 32
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "brightness",
+      "aliases": [],
+      "priority": "domain",
+      "id": 33
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "emittance",
+      "aliases": [],
+      "priority": "domain",
+      "id": 34
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "horizontal emittance",
+      "aliases": [],
+      "priority": "domain",
+      "id": 35
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "vertical emittance",
+      "aliases": [],
+      "priority": "domain",
+      "id": 36
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "energy spread",
+      "aliases": [],
+      "priority": "domain",
+      "id": 37
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "beam divergence",
+      "aliases": [],
+      "priority": "domain",
+      "id": 38
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "beam size",
+      "aliases": [],
+      "priority": "domain",
+      "id": 39
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "source size",
+      "aliases": [],
+      "priority": "domain",
+      "id": 40
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "source point",
+      "aliases": [],
+      "priority": "domain",
+      "id": 41
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "machine optics",
+      "aliases": [],
+      "priority": "domain",
+      "id": 42
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "beta function",
+      "aliases": [],
+      "priority": "domain",
+      "id": 43
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "orbit correction",
+      "aliases": [],
+      "priority": "domain",
+      "id": 44
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "fast orbit feedback",
+      "aliases": [],
+      "priority": "domain",
+      "id": 45
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "slow orbit feedback",
+      "aliases": [],
+      "priority": "domain",
+      "id": 46
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "beam position monitor",
+      "aliases": [],
+      "priority": "domain",
+      "id": 47
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "BPM",
+      "aliases": [],
+      "priority": "domain",
+      "id": 48
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "current transformer",
+      "aliases": [],
+      "priority": "domain",
+      "id": 49
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "beam loss monitor",
+      "aliases": [],
+      "priority": "domain",
+      "id": 50
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "machine protection system",
+      "aliases": [],
+      "priority": "domain",
+      "id": 51
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "front end",
+      "aliases": [],
+      "priority": "domain",
+      "id": 52
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "primary slit",
+      "aliases": [],
+      "priority": "domain",
+      "id": 53
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "secondary slit",
+      "aliases": [],
+      "priority": "domain",
+      "id": 54
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "beam-defining aperture",
+      "aliases": [],
+      "priority": "domain",
+      "id": 55
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "beam stop",
+      "aliases": [],
+      "priority": "domain",
+      "id": 56
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "photon shutter",
+      "aliases": [],
+      "priority": "domain",
+      "id": 57
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "fast shutter",
+      "aliases": [],
+      "priority": "domain",
+      "id": 58
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "safety shutter",
+      "aliases": [],
+      "priority": "domain",
+      "id": 59
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "white beam",
+      "aliases": [],
+      "priority": "domain",
+      "id": 60
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "pink beam",
+      "aliases": [],
+      "priority": "domain",
+      "id": 61
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "monochromatic beam",
+      "aliases": [],
+      "priority": "domain",
+      "id": 62
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "harmonic rejection",
+      "aliases": [],
+      "priority": "domain",
+      "id": 63
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "higher harmonic",
+      "aliases": [],
+      "priority": "domain",
+      "id": 64
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "double-crystal monochromator",
+      "aliases": [],
+      "priority": "domain",
+      "id": 65
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "channel-cut monochromator",
+      "aliases": [],
+      "priority": "domain",
+      "id": 66
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "silicon monochromator",
+      "aliases": [],
+      "priority": "domain",
+      "id": 67
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "Si(111) monochromator",
+      "aliases": [],
+      "priority": "domain",
+      "id": 68
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "Si(311) monochromator",
+      "aliases": [],
+      "priority": "domain",
+      "id": 69
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "energy calibration",
+      "aliases": [],
+      "priority": "domain",
+      "id": 70
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "absorption edge",
+      "aliases": [],
+      "priority": "domain",
+      "id": 71
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "energy scan",
+      "aliases": [],
+      "priority": "domain",
+      "id": 72
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "rocking curve",
+      "aliases": [],
+      "priority": "domain",
+      "id": 73
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "Bragg angle",
+      "aliases": [],
+      "priority": "domain",
+      "id": 74
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "Bragg reflection",
+      "aliases": [],
+      "priority": "domain",
+      "id": 75
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "Darwin width",
+      "aliases": [],
+      "priority": "domain",
+      "id": 76
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "beam stability",
+      "aliases": [],
+      "priority": "domain",
+      "id": 77
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "thermal drift",
+      "aliases": [],
+      "priority": "domain",
+      "id": 78
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "heat load",
+      "aliases": [],
+      "priority": "domain",
+      "id": 79
+    },
+    {
+      "category": "synchrotron_beamline",
+      "canonical_term": "cryogenic cooling",
+      "aliases": [],
+      "priority": "domain",
+      "id": 80
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "X-ray optics",
+      "aliases": [
+        "X ray optics"
+      ],
+      "priority": "core",
+      "id": 81
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "compound refractive lens",
+      "aliases": [
+        "compound refractive lenses",
+        "C R L",
+        "CRL"
+      ],
+      "priority": "core",
+      "id": 82
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "Fresnel zone plate",
+      "aliases": [
+        "Fresnel zone plates",
+        "zone plate"
+      ],
+      "priority": "core",
+      "id": 83
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "Kirkpatrick–Baez mirror",
+      "aliases": [
+        "Kirkpatrick Baez mirror",
+        "KB mirrors",
+        "K B mirror"
+      ],
+      "priority": "core",
+      "id": 84
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "KB mirror",
+      "aliases": [],
+      "priority": "core",
+      "id": 85
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "nano-focusing",
+      "aliases": [],
+      "priority": "core",
+      "id": 86
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "wavefront",
+      "aliases": [],
+      "priority": "core",
+      "id": 87
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "X-ray microscopy",
+      "aliases": [
+        "X ray microscopy"
+      ],
+      "priority": "core",
+      "id": 88
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "scanning X-ray microscopy",
+      "aliases": [
+        "scanning X ray microscopy"
+      ],
+      "priority": "core",
+      "id": 89
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "refractive X-ray optics",
+      "aliases": [
+        "refractive X ray optics"
+      ],
+      "priority": "domain",
+      "id": 90
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "reflective X-ray optics",
+      "aliases": [
+        "reflective X ray optics"
+      ],
+      "priority": "domain",
+      "id": 91
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "diffractive X-ray optics",
+      "aliases": [
+        "diffractive X ray optics"
+      ],
+      "priority": "domain",
+      "id": 92
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "CRL",
+      "aliases": [],
+      "priority": "domain",
+      "id": 93
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "beryllium lens",
+      "aliases": [],
+      "priority": "domain",
+      "id": 94
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "aluminium lens",
+      "aliases": [],
+      "priority": "domain",
+      "id": 95
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "polymer X-ray lens",
+      "aliases": [
+        "polymer X ray lens"
+      ],
+      "priority": "domain",
+      "id": 96
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "kinoform lens",
+      "aliases": [],
+      "priority": "domain",
+      "id": 97
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "zone plate",
+      "aliases": [],
+      "priority": "domain",
+      "id": 98
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "binary zone plate",
+      "aliases": [],
+      "priority": "domain",
+      "id": 99
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "multilevel zone plate",
+      "aliases": [],
+      "priority": "domain",
+      "id": 100
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "multilayer Laue lens",
+      "aliases": [],
+      "priority": "domain",
+      "id": 101
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "MLL",
+      "aliases": [],
+      "priority": "domain",
+      "id": 102
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "elliptical mirror",
+      "aliases": [],
+      "priority": "domain",
+      "id": 103
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "parabolic mirror",
+      "aliases": [],
+      "priority": "domain",
+      "id": 104
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "toroidal mirror",
+      "aliases": [],
+      "priority": "domain",
+      "id": 105
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "bimorph mirror",
+      "aliases": [],
+      "priority": "domain",
+      "id": 106
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "multilayer mirror",
+      "aliases": [],
+      "priority": "domain",
+      "id": 107
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "supermirror",
+      "aliases": [],
+      "priority": "domain",
+      "id": 108
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "grazing-incidence mirror",
+      "aliases": [],
+      "priority": "domain",
+      "id": 109
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "X-ray waveguide",
+      "aliases": [
+        "X ray waveguide"
+      ],
+      "priority": "domain",
+      "id": 110
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "capillary optic",
+      "aliases": [],
+      "priority": "domain",
+      "id": 111
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "polycapillary optic",
+      "aliases": [],
+      "priority": "domain",
+      "id": 112
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "X-ray prism",
+      "aliases": [
+        "X ray prism"
+      ],
+      "priority": "domain",
+      "id": 113
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "beam expander",
+      "aliases": [],
+      "priority": "domain",
+      "id": 114
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "beam condenser",
+      "aliases": [],
+      "priority": "domain",
+      "id": 115
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "condenser optic",
+      "aliases": [],
+      "priority": "domain",
+      "id": 116
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "order-sorting aperture",
+      "aliases": [],
+      "priority": "domain",
+      "id": 117
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "central stop",
+      "aliases": [],
+      "priority": "domain",
+      "id": 118
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "pinhole",
+      "aliases": [],
+      "priority": "domain",
+      "id": 119
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "aperture",
+      "aliases": [],
+      "priority": "domain",
+      "id": 120
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "slit system",
+      "aliases": [],
+      "priority": "domain",
+      "id": 121
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "secondary source",
+      "aliases": [],
+      "priority": "domain",
+      "id": 122
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "micro-focusing",
+      "aliases": [],
+      "priority": "domain",
+      "id": 123
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "nanobeam",
+      "aliases": [],
+      "priority": "domain",
+      "id": 124
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "microbeam",
+      "aliases": [],
+      "priority": "domain",
+      "id": 125
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "focal spot",
+      "aliases": [],
+      "priority": "domain",
+      "id": 126
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "spot size",
+      "aliases": [],
+      "priority": "domain",
+      "id": 127
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "full width at half maximum",
+      "aliases": [],
+      "priority": "domain",
+      "id": 128
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "FWHM",
+      "aliases": [],
+      "priority": "domain",
+      "id": 129
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "depth of focus",
+      "aliases": [],
+      "priority": "domain",
+      "id": 130
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "working distance",
+      "aliases": [],
+      "priority": "domain",
+      "id": 131
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "focal length",
+      "aliases": [],
+      "priority": "domain",
+      "id": 132
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "numerical aperture",
+      "aliases": [],
+      "priority": "domain",
+      "id": 133
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "acceptance angle",
+      "aliases": [],
+      "priority": "domain",
+      "id": 134
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "collection angle",
+      "aliases": [],
+      "priority": "domain",
+      "id": 135
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "magnification",
+      "aliases": [],
+      "priority": "domain",
+      "id": 136
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "geometric magnification",
+      "aliases": [],
+      "priority": "domain",
+      "id": 137
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "optical transfer function",
+      "aliases": [],
+      "priority": "domain",
+      "id": 138
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "modulation transfer function",
+      "aliases": [],
+      "priority": "domain",
+      "id": 139
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "point spread function",
+      "aliases": [],
+      "priority": "domain",
+      "id": 140
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "line spread function",
+      "aliases": [],
+      "priority": "domain",
+      "id": 141
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "wavefront error",
+      "aliases": [],
+      "priority": "domain",
+      "id": 142
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "wavefront sensing",
+      "aliases": [],
+      "priority": "domain",
+      "id": 143
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "wavefield characterization",
+      "aliases": [],
+      "priority": "domain",
+      "id": 144
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "beam caustic",
+      "aliases": [],
+      "priority": "domain",
+      "id": 145
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "beam waist",
+      "aliases": [],
+      "priority": "domain",
+      "id": 146
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "Rayleigh length",
+      "aliases": [],
+      "priority": "domain",
+      "id": 147
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "aberration",
+      "aliases": [],
+      "priority": "domain",
+      "id": 148
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "spherical aberration",
+      "aliases": [],
+      "priority": "domain",
+      "id": 149
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "chromatic aberration",
+      "aliases": [],
+      "priority": "domain",
+      "id": 150
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "astigmatism",
+      "aliases": [],
+      "priority": "domain",
+      "id": 151
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "coma",
+      "aliases": [],
+      "priority": "domain",
+      "id": 152
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "mirror slope error",
+      "aliases": [],
+      "priority": "domain",
+      "id": 153
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "surface roughness",
+      "aliases": [],
+      "priority": "domain",
+      "id": 154
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "figure error",
+      "aliases": [],
+      "priority": "domain",
+      "id": 155
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "alignment tolerance",
+      "aliases": [],
+      "priority": "domain",
+      "id": 156
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "optical alignment",
+      "aliases": [],
+      "priority": "domain",
+      "id": 157
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "transmission X-ray microscopy",
+      "aliases": [
+        "T X M",
+        "TXM",
+        "transmission X ray microscopy"
+      ],
+      "priority": "domain",
+      "id": 158
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "full-field X-ray microscopy",
+      "aliases": [
+        "full-field X ray microscopy"
+      ],
+      "priority": "domain",
+      "id": 159
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "scanning transmission X-ray microscopy",
+      "aliases": [
+        "S T X M",
+        "STXM",
+        "scanning transmission X ray microscopy"
+      ],
+      "priority": "domain",
+      "id": 160
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "STXM",
+      "aliases": [],
+      "priority": "domain",
+      "id": 161
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "TXM",
+      "aliases": [],
+      "priority": "domain",
+      "id": 162
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "hard X-ray microscopy",
+      "aliases": [
+        "hard X ray microscopy"
+      ],
+      "priority": "domain",
+      "id": 163
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "soft X-ray microscopy",
+      "aliases": [
+        "soft X ray microscopy"
+      ],
+      "priority": "domain",
+      "id": 164
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "nano-X-ray microscopy",
+      "aliases": [
+        "nano-X ray microscopy"
+      ],
+      "priority": "domain",
+      "id": 165
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "X-ray holography",
+      "aliases": [
+        "X ray holography"
+      ],
+      "priority": "core",
+      "id": 166
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "near-field holography",
+      "aliases": [
+        "near field holography",
+        "nearfield holography"
+      ],
+      "priority": "core",
+      "id": 167
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "far-field holography",
+      "aliases": [
+        "far field holography",
+        "farfield holography"
+      ],
+      "priority": "core",
+      "id": 168
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "phase contrast imaging",
+      "aliases": [],
+      "priority": "core",
+      "id": 169
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "phase retrieval",
+      "aliases": [],
+      "priority": "core",
+      "id": 170
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "phase recovery",
+      "aliases": [],
+      "priority": "core",
+      "id": 171
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "Fresnel propagation",
+      "aliases": [],
+      "priority": "core",
+      "id": 172
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "coherence",
+      "aliases": [],
+      "priority": "core",
+      "id": 173
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "inline holography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 174
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "off-axis holography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 175
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "Fourier-transform holography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 176
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "Fourier holography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 177
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "reference-beam holography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 178
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "lensless holography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 179
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "digital holography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 180
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "holographic imaging",
+      "aliases": [],
+      "priority": "domain",
+      "id": 181
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "holographic reconstruction",
+      "aliases": [],
+      "priority": "domain",
+      "id": 182
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "hologram",
+      "aliases": [],
+      "priority": "domain",
+      "id": 183
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "reference wave",
+      "aliases": [],
+      "priority": "domain",
+      "id": 184
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "object wave",
+      "aliases": [],
+      "priority": "domain",
+      "id": 185
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "interference pattern",
+      "aliases": [],
+      "priority": "domain",
+      "id": 186
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "fringe pattern",
+      "aliases": [],
+      "priority": "domain",
+      "id": 187
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "fringe visibility",
+      "aliases": [],
+      "priority": "domain",
+      "id": 188
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "fringe contrast",
+      "aliases": [],
+      "priority": "domain",
+      "id": 189
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "propagation-based phase contrast",
+      "aliases": [],
+      "priority": "domain",
+      "id": 190
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "inline phase contrast",
+      "aliases": [],
+      "priority": "domain",
+      "id": 191
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "analyzer-based imaging",
+      "aliases": [],
+      "priority": "domain",
+      "id": 192
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "grating interferometry",
+      "aliases": [],
+      "priority": "domain",
+      "id": 193
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "Talbot interferometry",
+      "aliases": [],
+      "priority": "domain",
+      "id": 194
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "Talbot–Lau interferometry",
+      "aliases": [],
+      "priority": "domain",
+      "id": 195
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "speckle-based imaging",
+      "aliases": [],
+      "priority": "domain",
+      "id": 196
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "edge illumination",
+      "aliases": [],
+      "priority": "domain",
+      "id": 197
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "phase unwrapping",
+      "aliases": [],
+      "priority": "domain",
+      "id": 198
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "phase wrapping",
+      "aliases": [],
+      "priority": "domain",
+      "id": 199
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "phase map",
+      "aliases": [],
+      "priority": "domain",
+      "id": 200
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "projected phase",
+      "aliases": [],
+      "priority": "domain",
+      "id": 201
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "complex transmission function",
+      "aliases": [],
+      "priority": "domain",
+      "id": 202
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "complex refractive index",
+      "aliases": [],
+      "priority": "domain",
+      "id": 203
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "refractive index decrement",
+      "aliases": [],
+      "priority": "domain",
+      "id": 204
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "absorption index",
+      "aliases": [],
+      "priority": "domain",
+      "id": 205
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "optical path length",
+      "aliases": [],
+      "priority": "domain",
+      "id": 206
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "projected electron density",
+      "aliases": [],
+      "priority": "domain",
+      "id": 207
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "Fresnel diffraction",
+      "aliases": [],
+      "priority": "domain",
+      "id": 208
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "Fraunhofer diffraction",
+      "aliases": [],
+      "priority": "domain",
+      "id": 209
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "Fraunhofer propagation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 210
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "angular spectrum method",
+      "aliases": [],
+      "priority": "domain",
+      "id": 211
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "Fresnel transform",
+      "aliases": [],
+      "priority": "domain",
+      "id": 212
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "Fourier transform propagation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 213
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "Rayleigh–Sommerfeld propagation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 214
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "Kirchhoff diffraction integral",
+      "aliases": [],
+      "priority": "domain",
+      "id": 215
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "Huygens–Fresnel principle",
+      "aliases": [],
+      "priority": "domain",
+      "id": 216
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "paraxial approximation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 217
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "near-field regime",
+      "aliases": [
+        "near field regime"
+      ],
+      "priority": "domain",
+      "id": 218
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "far-field regime",
+      "aliases": [
+        "far field regime"
+      ],
+      "priority": "domain",
+      "id": 219
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "Fresnel number",
+      "aliases": [],
+      "priority": "domain",
+      "id": 220
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "Fraunhofer distance",
+      "aliases": [],
+      "priority": "domain",
+      "id": 221
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "propagation distance",
+      "aliases": [],
+      "priority": "domain",
+      "id": 222
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "defocus distance",
+      "aliases": [],
+      "priority": "domain",
+      "id": 223
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "focus-to-detector distance",
+      "aliases": [],
+      "priority": "domain",
+      "id": 224
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "sample-to-detector distance",
+      "aliases": [],
+      "priority": "domain",
+      "id": 225
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "spatial coherence",
+      "aliases": [],
+      "priority": "domain",
+      "id": 226
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "temporal coherence",
+      "aliases": [],
+      "priority": "domain",
+      "id": 227
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "partial coherence",
+      "aliases": [],
+      "priority": "domain",
+      "id": 228
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "transverse coherence",
+      "aliases": [],
+      "priority": "domain",
+      "id": 229
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "longitudinal coherence",
+      "aliases": [],
+      "priority": "domain",
+      "id": 230
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "coherence length",
+      "aliases": [],
+      "priority": "domain",
+      "id": 231
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "coherence area",
+      "aliases": [],
+      "priority": "domain",
+      "id": 232
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "mutual coherence function",
+      "aliases": [],
+      "priority": "domain",
+      "id": 233
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "complex degree of coherence",
+      "aliases": [],
+      "priority": "domain",
+      "id": 234
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "coherent mode decomposition",
+      "aliases": [],
+      "priority": "domain",
+      "id": 235
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "mixed-state model",
+      "aliases": [],
+      "priority": "domain",
+      "id": 236
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "source coherence",
+      "aliases": [],
+      "priority": "domain",
+      "id": 237
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "visibility reduction",
+      "aliases": [],
+      "priority": "domain",
+      "id": 238
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "transport of intensity equation",
+      "aliases": [
+        "TIE equation",
+        "transport intensity equation"
+      ],
+      "priority": "domain",
+      "id": 239
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "TIE",
+      "aliases": [],
+      "priority": "domain",
+      "id": 240
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "Paganin phase retrieval",
+      "aliases": [
+        "Paganin method",
+        "Paganini method"
+      ],
+      "priority": "domain",
+      "id": 241
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "Paganin method",
+      "aliases": [],
+      "priority": "domain",
+      "id": 242
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "contrast transfer function",
+      "aliases": [],
+      "priority": "domain",
+      "id": 243
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "CTF",
+      "aliases": [],
+      "priority": "domain",
+      "id": 244
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "contrast transfer function inversion",
+      "aliases": [],
+      "priority": "domain",
+      "id": 245
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "multi-distance phase retrieval",
+      "aliases": [],
+      "priority": "domain",
+      "id": 246
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "single-distance phase retrieval",
+      "aliases": [],
+      "priority": "domain",
+      "id": 247
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "holotomography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 248
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "phase tomography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 249
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "phase-contrast tomography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 250
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "wave propagation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 251
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "wavefield propagation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 252
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "wavefield retrieval",
+      "aliases": [],
+      "priority": "domain",
+      "id": 253
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "phase diversity",
+      "aliases": [],
+      "priority": "domain",
+      "id": 254
+    },
+    {
+      "category": "holography_phase_coherence",
+      "canonical_term": "Gerchberg–Saxton algorithm",
+      "aliases": [],
+      "priority": "domain",
+      "id": 255
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "ptychography",
+      "aliases": [],
+      "priority": "core",
+      "id": 256
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "X-ray ptychography",
+      "aliases": [
+        "X ray ptychography"
+      ],
+      "priority": "core",
+      "id": 257
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "near-field ptychography",
+      "aliases": [
+        "near field ptychography",
+        "nearfield ptychography"
+      ],
+      "priority": "core",
+      "id": 258
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "multi-slice ptychography",
+      "aliases": [
+        "multislice ptychography",
+        "multi slicing ptychography"
+      ],
+      "priority": "core",
+      "id": 259
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "coherent diffraction imaging",
+      "aliases": [
+        "coherent diffractive imaging",
+        "CDI"
+      ],
+      "priority": "core",
+      "id": 260
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "CDI",
+      "aliases": [],
+      "priority": "core",
+      "id": 261
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "ePIE",
+      "aliases": [
+        "e pie",
+        "extended pie"
+      ],
+      "priority": "core",
+      "id": 262
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "difference map",
+      "aliases": [
+        "difference-map algorithm"
+      ],
+      "priority": "core",
+      "id": 263
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "PtyPy",
+      "aliases": [
+        "tie pie",
+        "pty pie"
+      ],
+      "priority": "core",
+      "id": 264
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "PyNX",
+      "aliases": [
+        "pie N X",
+        "py N X"
+      ],
+      "priority": "core",
+      "id": 265
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "far-field ptychography",
+      "aliases": [
+        "far field ptychography",
+        "farfield ptychography"
+      ],
+      "priority": "domain",
+      "id": 266
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "Fourier ptychography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 267
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "scanning ptychography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 268
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "Bragg ptychography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 269
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "reflection ptychography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 270
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "soft X-ray ptychography",
+      "aliases": [
+        "soft X ray ptychography"
+      ],
+      "priority": "domain",
+      "id": 271
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "hard X-ray ptychography",
+      "aliases": [
+        "hard X ray ptychography"
+      ],
+      "priority": "domain",
+      "id": 272
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "multislice ptychography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 273
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "3D ptychography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 274
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "ptychographic tomography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 275
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "ptychographic X-ray computed tomography",
+      "aliases": [
+        "ptychographic X ray computed tomography"
+      ],
+      "priority": "domain",
+      "id": 276
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "PXCT",
+      "aliases": [],
+      "priority": "domain",
+      "id": 277
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "spectro-ptychography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 278
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "fluorescence ptychography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 279
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "magnetic ptychography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 280
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "time-resolved ptychography",
+      "aliases": [
+        "time resolved ptychography"
+      ],
+      "priority": "domain",
+      "id": 281
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "continuous-scan ptychography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 282
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "fly-scan ptychography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 283
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "position-resolved coherent diffraction",
+      "aliases": [],
+      "priority": "domain",
+      "id": 284
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "BCDI",
+      "aliases": [],
+      "priority": "domain",
+      "id": 285
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "single-particle imaging",
+      "aliases": [],
+      "priority": "domain",
+      "id": 286
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "phase-retrieval transfer function",
+      "aliases": [],
+      "priority": "domain",
+      "id": 287
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "ptychographic reconstruction",
+      "aliases": [],
+      "priority": "domain",
+      "id": 288
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "probe retrieval",
+      "aliases": [],
+      "priority": "domain",
+      "id": 289
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "object retrieval",
+      "aliases": [
+        "object retrieve"
+      ],
+      "priority": "domain",
+      "id": 290
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "probe function",
+      "aliases": [],
+      "priority": "domain",
+      "id": 291
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "object function",
+      "aliases": [],
+      "priority": "domain",
+      "id": 292
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "illumination function",
+      "aliases": [],
+      "priority": "domain",
+      "id": 293
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "exit wave",
+      "aliases": [],
+      "priority": "domain",
+      "id": 294
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "diffraction pattern",
+      "aliases": [],
+      "priority": "domain",
+      "id": 295
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "far-field diffraction pattern",
+      "aliases": [
+        "far field diffraction pattern"
+      ],
+      "priority": "domain",
+      "id": 296
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "near-field diffraction pattern",
+      "aliases": [
+        "near field diffraction pattern"
+      ],
+      "priority": "domain",
+      "id": 297
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "scan grid",
+      "aliases": [],
+      "priority": "domain",
+      "id": 298
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "scan positions",
+      "aliases": [],
+      "priority": "domain",
+      "id": 299
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "raster scan",
+      "aliases": [],
+      "priority": "domain",
+      "id": 300
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "spiral scan",
+      "aliases": [],
+      "priority": "domain",
+      "id": 301
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "Fermat spiral",
+      "aliases": [],
+      "priority": "domain",
+      "id": 302
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "random scan",
+      "aliases": [],
+      "priority": "domain",
+      "id": 303
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "scan overlap",
+      "aliases": [],
+      "priority": "domain",
+      "id": 304
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "overlap constraint",
+      "aliases": [],
+      "priority": "domain",
+      "id": 305
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "redundancy",
+      "aliases": [],
+      "priority": "domain",
+      "id": 306
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "ptychographic redundancy",
+      "aliases": [],
+      "priority": "domain",
+      "id": 307
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "position refinement",
+      "aliases": [],
+      "priority": "domain",
+      "id": 308
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "position correction",
+      "aliases": [],
+      "priority": "domain",
+      "id": 309
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "probe-position correction",
+      "aliases": [],
+      "priority": "domain",
+      "id": 310
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "scan-position error",
+      "aliases": [],
+      "priority": "domain",
+      "id": 311
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "sample drift",
+      "aliases": [],
+      "priority": "domain",
+      "id": 312
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "probe drift",
+      "aliases": [],
+      "priority": "domain",
+      "id": 313
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "partial coherence model",
+      "aliases": [],
+      "priority": "domain",
+      "id": 314
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "mixed-state ptychography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 315
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "multiple probe modes",
+      "aliases": [],
+      "priority": "domain",
+      "id": 316
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "orthogonal probe relaxation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 317
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "OPR",
+      "aliases": [],
+      "priority": "domain",
+      "id": 318
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "multi-mode reconstruction",
+      "aliases": [],
+      "priority": "domain",
+      "id": 319
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "multi-wavelength ptychography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 320
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "multi-energy ptychography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 321
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "multi-slice propagation",
+      "aliases": [
+        "multislice propagation"
+      ],
+      "priority": "domain",
+      "id": 322
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "slice thickness",
+      "aliases": [],
+      "priority": "domain",
+      "id": 323
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "inter-slice propagation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 324
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "projection approximation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 325
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "weak-phase approximation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 326
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "strong-phase object",
+      "aliases": [],
+      "priority": "domain",
+      "id": 327
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "extended ptychographic iterative engine",
+      "aliases": [],
+      "priority": "domain",
+      "id": 328
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "regularized PIE",
+      "aliases": [],
+      "priority": "domain",
+      "id": 329
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "rPIE",
+      "aliases": [
+        "r pie"
+      ],
+      "priority": "domain",
+      "id": 330
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "momentum-accelerated PIE",
+      "aliases": [],
+      "priority": "domain",
+      "id": 331
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "mPIE",
+      "aliases": [
+        "m pie"
+      ],
+      "priority": "domain",
+      "id": 332
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "DM algorithm",
+      "aliases": [],
+      "priority": "domain",
+      "id": 333
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "maximum-likelihood ptychography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 334
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "ML ptychography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 335
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "conjugate-gradient ptychography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 336
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "least-squares ptychography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 337
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "alternating projections",
+      "aliases": [],
+      "priority": "domain",
+      "id": 338
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "projection algorithms",
+      "aliases": [],
+      "priority": "domain",
+      "id": 339
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "RAAR algorithm",
+      "aliases": [],
+      "priority": "domain",
+      "id": 340
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "relaxed averaged alternating reflections",
+      "aliases": [],
+      "priority": "domain",
+      "id": 341
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "Wigner distribution deconvolution",
+      "aliases": [],
+      "priority": "domain",
+      "id": 342
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "WDD",
+      "aliases": [],
+      "priority": "domain",
+      "id": 343
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "ptychographic iterative engine",
+      "aliases": [],
+      "priority": "domain",
+      "id": 344
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "PIE",
+      "aliases": [],
+      "priority": "domain",
+      "id": 345
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "probe normalization",
+      "aliases": [],
+      "priority": "domain",
+      "id": 346
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "object normalization",
+      "aliases": [],
+      "priority": "domain",
+      "id": 347
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "probe constraint",
+      "aliases": [],
+      "priority": "domain",
+      "id": 348
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "object constraint",
+      "aliases": [],
+      "priority": "domain",
+      "id": 349
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "support update",
+      "aliases": [],
+      "priority": "domain",
+      "id": 350
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "computed tomography",
+      "aliases": [
+        "CT"
+      ],
+      "priority": "core",
+      "id": 351
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "X-ray tomography",
+      "aliases": [
+        "X ray tomography"
+      ],
+      "priority": "core",
+      "id": 352
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "sinogram",
+      "aliases": [
+        "synogram"
+      ],
+      "priority": "core",
+      "id": 353
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "filtered back projection",
+      "aliases": [
+        "filtered backprojection",
+        "F B P",
+        "FBP"
+      ],
+      "priority": "core",
+      "id": 354
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "iterative reconstruction",
+      "aliases": [],
+      "priority": "core",
+      "id": 355
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "ASTRA Toolbox",
+      "aliases": [
+        "ASTA toolbox",
+        "ASTA football",
+        "Astra football",
+        "extra toolbox"
+      ],
+      "priority": "core",
+      "id": 356
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "TomoPy",
+      "aliases": [
+        "tomo pie",
+        "tomo pi"
+      ],
+      "priority": "core",
+      "id": 357
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "CT",
+      "aliases": [],
+      "priority": "domain",
+      "id": 358
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "micro-computed tomography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 359
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "micro-CT",
+      "aliases": [],
+      "priority": "domain",
+      "id": 360
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "nano-computed tomography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 361
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "nano-CT",
+      "aliases": [],
+      "priority": "domain",
+      "id": 362
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "synchrotron tomography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 363
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "absorption tomography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 364
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "laminography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 365
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "X-ray laminography",
+      "aliases": [
+        "X ray laminography"
+      ],
+      "priority": "domain",
+      "id": 366
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "computed laminography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 367
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "cone-beam tomography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 368
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "parallel-beam tomography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 369
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "fan-beam tomography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 370
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "helical tomography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 371
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "spiral tomography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 372
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "limited-angle tomography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 373
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "sparse-view tomography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 374
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "interior tomography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 375
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "dynamic tomography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 376
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "time-resolved tomography",
+      "aliases": [
+        "time resolved tomography"
+      ],
+      "priority": "domain",
+      "id": 377
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "spectral tomography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 378
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "multi-energy tomography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 379
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "dual-energy tomography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 380
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "hyperspectral tomography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 381
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "fluorescence tomography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 382
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "diffraction tomography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 383
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "X-ray diffraction tomography",
+      "aliases": [
+        "X ray diffraction tomography"
+      ],
+      "priority": "domain",
+      "id": 384
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "projection data",
+      "aliases": [],
+      "priority": "domain",
+      "id": 385
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "radiograph",
+      "aliases": [],
+      "priority": "domain",
+      "id": 386
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "projection image",
+      "aliases": [],
+      "priority": "domain",
+      "id": 387
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "sinogram preprocessing",
+      "aliases": [],
+      "priority": "domain",
+      "id": 388
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "sinogram alignment",
+      "aliases": [],
+      "priority": "domain",
+      "id": 389
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "sinogram filtering",
+      "aliases": [],
+      "priority": "domain",
+      "id": 390
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "Radon transform",
+      "aliases": [],
+      "priority": "domain",
+      "id": 391
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "inverse Radon transform",
+      "aliases": [],
+      "priority": "domain",
+      "id": 392
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "Fourier slice theorem",
+      "aliases": [],
+      "priority": "domain",
+      "id": 393
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "central slice theorem",
+      "aliases": [],
+      "priority": "domain",
+      "id": 394
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "projection theorem",
+      "aliases": [],
+      "priority": "domain",
+      "id": 395
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "back projection",
+      "aliases": [],
+      "priority": "domain",
+      "id": 396
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "FBP",
+      "aliases": [],
+      "priority": "domain",
+      "id": 397
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "Feldkamp–Davis–Kress algorithm",
+      "aliases": [],
+      "priority": "domain",
+      "id": 398
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "FDK",
+      "aliases": [],
+      "priority": "domain",
+      "id": 399
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "algebraic reconstruction technique",
+      "aliases": [
+        "ART",
+        "algebraic reconstruction"
+      ],
+      "priority": "domain",
+      "id": 400
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "ART",
+      "aliases": [],
+      "priority": "domain",
+      "id": 401
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "simultaneous algebraic reconstruction technique",
+      "aliases": [
+        "SART",
+        "simultaneous algebraic reconstruction"
+      ],
+      "priority": "domain",
+      "id": 402
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "SART",
+      "aliases": [],
+      "priority": "domain",
+      "id": 403
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "simultaneous iterative reconstruction technique",
+      "aliases": [
+        "SIRT",
+        "simultaneous iterative reconstruction"
+      ],
+      "priority": "domain",
+      "id": 404
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "SIRT",
+      "aliases": [],
+      "priority": "domain",
+      "id": 405
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "conjugate gradient least squares",
+      "aliases": [
+        "CGLS",
+        "conjugate-gradient least squares"
+      ],
+      "priority": "domain",
+      "id": 406
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "CGLS",
+      "aliases": [],
+      "priority": "domain",
+      "id": 407
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "expectation maximization",
+      "aliases": [],
+      "priority": "domain",
+      "id": 408
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "maximum-likelihood expectation maximization",
+      "aliases": [],
+      "priority": "domain",
+      "id": 409
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "MLEM",
+      "aliases": [],
+      "priority": "domain",
+      "id": 410
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "ordered subsets expectation maximization",
+      "aliases": [],
+      "priority": "domain",
+      "id": 411
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "OSEM",
+      "aliases": [],
+      "priority": "domain",
+      "id": 412
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "model-based iterative reconstruction",
+      "aliases": [],
+      "priority": "domain",
+      "id": 413
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "statistical reconstruction",
+      "aliases": [],
+      "priority": "domain",
+      "id": 414
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "total variation reconstruction",
+      "aliases": [],
+      "priority": "domain",
+      "id": 415
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "total variation regularization",
+      "aliases": [],
+      "priority": "domain",
+      "id": 416
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "TV regularization",
+      "aliases": [],
+      "priority": "domain",
+      "id": 417
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "Tikhonov regularization",
+      "aliases": [],
+      "priority": "domain",
+      "id": 418
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "L1 regularization",
+      "aliases": [],
+      "priority": "domain",
+      "id": 419
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "L2 regularization",
+      "aliases": [],
+      "priority": "domain",
+      "id": 420
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "sparsity regularization",
+      "aliases": [],
+      "priority": "domain",
+      "id": 421
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "compressed sensing",
+      "aliases": [],
+      "priority": "domain",
+      "id": 422
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "plug-and-play reconstruction",
+      "aliases": [],
+      "priority": "domain",
+      "id": 423
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "learned iterative reconstruction",
+      "aliases": [],
+      "priority": "domain",
+      "id": 424
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "neural reconstruction",
+      "aliases": [],
+      "priority": "domain",
+      "id": 425
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "physics-informed reconstruction",
+      "aliases": [],
+      "priority": "domain",
+      "id": 426
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "joint reconstruction",
+      "aliases": [],
+      "priority": "domain",
+      "id": 427
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "multi-modal reconstruction",
+      "aliases": [],
+      "priority": "domain",
+      "id": 428
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "center of rotation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 429
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "rotation-axis alignment",
+      "aliases": [],
+      "priority": "domain",
+      "id": 430
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "axis tilt",
+      "aliases": [],
+      "priority": "domain",
+      "id": 431
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "projection alignment",
+      "aliases": [],
+      "priority": "domain",
+      "id": 432
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "vertical alignment",
+      "aliases": [],
+      "priority": "domain",
+      "id": 433
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "horizontal alignment",
+      "aliases": [],
+      "priority": "domain",
+      "id": 434
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "cor alignment",
+      "aliases": [],
+      "priority": "domain",
+      "id": 435
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "ring artifact",
+      "aliases": [],
+      "priority": "domain",
+      "id": 436
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "stripe artifact",
+      "aliases": [],
+      "priority": "domain",
+      "id": 437
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "beam hardening",
+      "aliases": [],
+      "priority": "domain",
+      "id": 438
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "metal artifact",
+      "aliases": [],
+      "priority": "domain",
+      "id": 439
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "motion artifact",
+      "aliases": [],
+      "priority": "domain",
+      "id": 440
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "missing wedge",
+      "aliases": [],
+      "priority": "domain",
+      "id": 441
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "missing cone",
+      "aliases": [],
+      "priority": "domain",
+      "id": 442
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "truncation artifact",
+      "aliases": [],
+      "priority": "domain",
+      "id": 443
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "limited-angle artifact",
+      "aliases": [],
+      "priority": "domain",
+      "id": 444
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "flat-field correction",
+      "aliases": [],
+      "priority": "domain",
+      "id": 445
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "dark-field correction",
+      "aliases": [
+        "dark-field correct",
+        "dark field correct"
+      ],
+      "priority": "domain",
+      "id": 446
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "phase retrieval before tomography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 447
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "phase retrieval after tomography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 448
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "volume reconstruction",
+      "aliases": [],
+      "priority": "domain",
+      "id": 449
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "voxel grid",
+      "aliases": [],
+      "priority": "domain",
+      "id": 450
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "X-ray fluorescence",
+      "aliases": [
+        "x ray fluorescence",
+        "X ray fluorescence",
+        "XRF"
+      ],
+      "priority": "core",
+      "id": 451
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "XRF",
+      "aliases": [],
+      "priority": "core",
+      "id": 452
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "XBIC",
+      "aliases": [],
+      "priority": "core",
+      "id": 453
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "XEOL",
+      "aliases": [],
+      "priority": "core",
+      "id": 454
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "X-ray diffraction",
+      "aliases": [
+        "x ray diffraction",
+        "X R D",
+        "X ray diffraction"
+      ],
+      "priority": "core",
+      "id": 455
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "XRD",
+      "aliases": [],
+      "priority": "core",
+      "id": 456
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "nano-XRD",
+      "aliases": [],
+      "priority": "core",
+      "id": 457
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "micro-XRF",
+      "aliases": [],
+      "priority": "domain",
+      "id": 458
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "nano-XRF",
+      "aliases": [],
+      "priority": "domain",
+      "id": 459
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "scanning X-ray fluorescence",
+      "aliases": [
+        "scanning X ray fluorescence"
+      ],
+      "priority": "domain",
+      "id": 460
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "X-ray fluorescence microscopy",
+      "aliases": [
+        "X ray fluorescence microscopy"
+      ],
+      "priority": "domain",
+      "id": 461
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "X-ray fluorescence tomography",
+      "aliases": [
+        "X ray fluorescence tomography"
+      ],
+      "priority": "domain",
+      "id": 462
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "XRF tomography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 463
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "fluorescence yield",
+      "aliases": [],
+      "priority": "domain",
+      "id": 464
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "fluorescence detector",
+      "aliases": [],
+      "priority": "domain",
+      "id": 465
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "silicon drift detector",
+      "aliases": [],
+      "priority": "domain",
+      "id": 466
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "SDD",
+      "aliases": [],
+      "priority": "domain",
+      "id": 467
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "energy-dispersive detector",
+      "aliases": [],
+      "priority": "domain",
+      "id": 468
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "energy-dispersive spectroscopy",
+      "aliases": [],
+      "priority": "domain",
+      "id": 469
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "EDS",
+      "aliases": [],
+      "priority": "domain",
+      "id": 470
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "wavelength-dispersive spectroscopy",
+      "aliases": [],
+      "priority": "domain",
+      "id": 471
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "WDS",
+      "aliases": [],
+      "priority": "domain",
+      "id": 472
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "X-ray absorption spectroscopy",
+      "aliases": [
+        "X ray absorption spectroscopy",
+        "XAS"
+      ],
+      "priority": "domain",
+      "id": 473
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "XAS",
+      "aliases": [],
+      "priority": "domain",
+      "id": 474
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "X-ray absorption near-edge structure",
+      "aliases": [
+        "X ray absorption near-edge structure",
+        "XANES"
+      ],
+      "priority": "domain",
+      "id": 475
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "XANES",
+      "aliases": [],
+      "priority": "domain",
+      "id": 476
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "extended X-ray absorption fine structure",
+      "aliases": [
+        "extended X ray absorption fine structure",
+        "EXAFS"
+      ],
+      "priority": "domain",
+      "id": 477
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "EXAFS",
+      "aliases": [],
+      "priority": "domain",
+      "id": 478
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "K edge",
+      "aliases": [],
+      "priority": "domain",
+      "id": 479
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "L edge",
+      "aliases": [],
+      "priority": "domain",
+      "id": 480
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "M edge",
+      "aliases": [],
+      "priority": "domain",
+      "id": 481
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "edge jump",
+      "aliases": [],
+      "priority": "domain",
+      "id": 482
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "white line",
+      "aliases": [],
+      "priority": "domain",
+      "id": 483
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "pre-edge feature",
+      "aliases": [],
+      "priority": "domain",
+      "id": 484
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "post-edge region",
+      "aliases": [],
+      "priority": "domain",
+      "id": 485
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "X-ray emission spectroscopy",
+      "aliases": [
+        "X ray emission spectroscopy"
+      ],
+      "priority": "domain",
+      "id": 486
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "XES",
+      "aliases": [],
+      "priority": "domain",
+      "id": 487
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "resonant inelastic X-ray scattering",
+      "aliases": [
+        "resonant inelastic X ray scattering"
+      ],
+      "priority": "domain",
+      "id": 488
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "RIXS",
+      "aliases": [],
+      "priority": "domain",
+      "id": 489
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "X-ray photoelectron spectroscopy",
+      "aliases": [
+        "X ray photoelectron spectroscopy"
+      ],
+      "priority": "domain",
+      "id": 490
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "XPS",
+      "aliases": [],
+      "priority": "domain",
+      "id": 491
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "X-ray beam induced current",
+      "aliases": [
+        "x ray beam induced current",
+        "X B I C",
+        "X ray beam induced current",
+        "XBIC"
+      ],
+      "priority": "domain",
+      "id": 492
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "X-ray excited optical luminescence",
+      "aliases": [
+        "x ray excited optical luminescence",
+        "X E O L",
+        "X ray excited optical luminescence",
+        "XEOL"
+      ],
+      "priority": "domain",
+      "id": 493
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "optical luminescence",
+      "aliases": [],
+      "priority": "domain",
+      "id": 494
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "photoluminescence",
+      "aliases": [],
+      "priority": "domain",
+      "id": 495
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "cathodoluminescence",
+      "aliases": [],
+      "priority": "domain",
+      "id": 496
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "powder diffraction",
+      "aliases": [],
+      "priority": "domain",
+      "id": 497
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "single-crystal diffraction",
+      "aliases": [],
+      "priority": "domain",
+      "id": 498
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "wide-angle X-ray scattering",
+      "aliases": [
+        "W A X S",
+        "WAXS",
+        "wide-angle X ray scattering"
+      ],
+      "priority": "domain",
+      "id": 499
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "WAXS",
+      "aliases": [],
+      "priority": "domain",
+      "id": 500
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "small-angle X-ray scattering",
+      "aliases": [
+        "S A X S",
+        "SAXS",
+        "small-angle X ray scattering"
+      ],
+      "priority": "domain",
+      "id": 501
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "SAXS",
+      "aliases": [],
+      "priority": "domain",
+      "id": 502
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "ultra-small-angle X-ray scattering",
+      "aliases": [
+        "ultra-small-angle X ray scattering"
+      ],
+      "priority": "domain",
+      "id": 503
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "USAXS",
+      "aliases": [],
+      "priority": "domain",
+      "id": 504
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "grazing-incidence X-ray diffraction",
+      "aliases": [
+        "grazing-incidence X ray diffraction"
+      ],
+      "priority": "domain",
+      "id": 505
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "GIXRD",
+      "aliases": [],
+      "priority": "domain",
+      "id": 506
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "grazing-incidence small-angle X-ray scattering",
+      "aliases": [
+        "GI SAXS",
+        "GISAXS",
+        "grazing-incidence small-angle X ray scattering"
+      ],
+      "priority": "domain",
+      "id": 507
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "GISAXS",
+      "aliases": [],
+      "priority": "domain",
+      "id": 508
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "grazing-incidence wide-angle X-ray scattering",
+      "aliases": [
+        "GI WAXS",
+        "GIWAXS",
+        "grazing-incidence wide-angle X ray scattering"
+      ],
+      "priority": "domain",
+      "id": 509
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "GIWAXS",
+      "aliases": [],
+      "priority": "domain",
+      "id": 510
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "azimuthal integration",
+      "aliases": [],
+      "priority": "domain",
+      "id": 511
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "radial integration",
+      "aliases": [],
+      "priority": "domain",
+      "id": 512
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "cake integration",
+      "aliases": [],
+      "priority": "domain",
+      "id": 513
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "2D integration",
+      "aliases": [],
+      "priority": "domain",
+      "id": 514
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "1D integration",
+      "aliases": [],
+      "priority": "domain",
+      "id": 515
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "Debye–Scherrer ring",
+      "aliases": [],
+      "priority": "domain",
+      "id": 516
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "Bragg peak",
+      "aliases": [],
+      "priority": "domain",
+      "id": 517
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "Bragg diffraction",
+      "aliases": [],
+      "priority": "domain",
+      "id": 518
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "reciprocal space",
+      "aliases": [],
+      "priority": "domain",
+      "id": 519
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "reciprocal-space map",
+      "aliases": [],
+      "priority": "domain",
+      "id": 520
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "RSM",
+      "aliases": [],
+      "priority": "domain",
+      "id": 521
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "scattering vector",
+      "aliases": [],
+      "priority": "domain",
+      "id": 522
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "momentum transfer",
+      "aliases": [],
+      "priority": "domain",
+      "id": 523
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "q vector",
+      "aliases": [],
+      "priority": "domain",
+      "id": 524
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "2-theta",
+      "aliases": [],
+      "priority": "domain",
+      "id": 525
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "Miller indices",
+      "aliases": [],
+      "priority": "domain",
+      "id": 526
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "lattice parameter",
+      "aliases": [],
+      "priority": "domain",
+      "id": 527
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "crystal orientation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 528
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "texture analysis",
+      "aliases": [],
+      "priority": "domain",
+      "id": 529
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "strain mapping",
+      "aliases": [],
+      "priority": "domain",
+      "id": 530
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "residual strain",
+      "aliases": [],
+      "priority": "domain",
+      "id": 531
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "phase identification",
+      "aliases": [],
+      "priority": "domain",
+      "id": 532
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "Rietveld refinement",
+      "aliases": [],
+      "priority": "domain",
+      "id": 533
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "pair distribution function",
+      "aliases": [],
+      "priority": "domain",
+      "id": 534
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "PDF analysis",
+      "aliases": [],
+      "priority": "domain",
+      "id": 535
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "scanning X-ray diffraction microscopy",
+      "aliases": [
+        "scanning X ray diffraction microscopy"
+      ],
+      "priority": "domain",
+      "id": 536
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "SXDM",
+      "aliases": [],
+      "priority": "domain",
+      "id": 537
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "diffraction contrast",
+      "aliases": [],
+      "priority": "domain",
+      "id": 538
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "Bragg microscopy",
+      "aliases": [],
+      "priority": "domain",
+      "id": 539
+    },
+    {
+      "category": "spectroscopy_scanning_materials",
+      "canonical_term": "Compton scattering",
+      "aliases": [],
+      "priority": "domain",
+      "id": 540
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "HDF5",
+      "aliases": [
+        "H D F five",
+        "HDF five"
+      ],
+      "priority": "core",
+      "id": 541
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "X-ray detector",
+      "aliases": [
+        "X ray detector"
+      ],
+      "priority": "domain",
+      "id": 542
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "area detector",
+      "aliases": [],
+      "priority": "domain",
+      "id": 543
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "pixel detector",
+      "aliases": [],
+      "priority": "domain",
+      "id": 544
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "photon-counting detector",
+      "aliases": [],
+      "priority": "domain",
+      "id": 545
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "integrating detector",
+      "aliases": [],
+      "priority": "domain",
+      "id": 546
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "hybrid pixel detector",
+      "aliases": [],
+      "priority": "domain",
+      "id": 547
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "single-photon counting",
+      "aliases": [],
+      "priority": "domain",
+      "id": 548
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "direct detector",
+      "aliases": [],
+      "priority": "domain",
+      "id": 549
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "indirect detector",
+      "aliases": [],
+      "priority": "domain",
+      "id": 550
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "scintillator",
+      "aliases": [],
+      "priority": "domain",
+      "id": 551
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "scintillator screen",
+      "aliases": [],
+      "priority": "domain",
+      "id": 552
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "Gadox scintillator",
+      "aliases": [],
+      "priority": "domain",
+      "id": 553
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "LuAG scintillator",
+      "aliases": [],
+      "priority": "domain",
+      "id": 554
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "YAG scintillator",
+      "aliases": [],
+      "priority": "domain",
+      "id": 555
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "CdTe detector",
+      "aliases": [],
+      "priority": "domain",
+      "id": 556
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "silicon detector",
+      "aliases": [],
+      "priority": "domain",
+      "id": 557
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "sCMOS detector",
+      "aliases": [
+        "SCMOS detector",
+        "S C M O S detector"
+      ],
+      "priority": "domain",
+      "id": 558
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "CMOS detector",
+      "aliases": [],
+      "priority": "domain",
+      "id": 559
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "CCD detector",
+      "aliases": [],
+      "priority": "domain",
+      "id": 560
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "Eiger detector",
+      "aliases": [],
+      "priority": "domain",
+      "id": 561
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "Pilatus detector",
+      "aliases": [],
+      "priority": "domain",
+      "id": 562
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "Lambda detector",
+      "aliases": [],
+      "priority": "domain",
+      "id": 563
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "Medipix detector",
+      "aliases": [],
+      "priority": "domain",
+      "id": 564
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "Timepix detector",
+      "aliases": [],
+      "priority": "domain",
+      "id": 565
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "Jungfrau detector",
+      "aliases": [],
+      "priority": "domain",
+      "id": 566
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "Gotthard detector",
+      "aliases": [],
+      "priority": "domain",
+      "id": 567
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "AGIPD detector",
+      "aliases": [],
+      "priority": "domain",
+      "id": 568
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "DSSC detector",
+      "aliases": [],
+      "priority": "domain",
+      "id": 569
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "LPD detector",
+      "aliases": [],
+      "priority": "domain",
+      "id": 570
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "flat-panel detector",
+      "aliases": [],
+      "priority": "domain",
+      "id": 571
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "photodiode",
+      "aliases": [],
+      "priority": "domain",
+      "id": 572
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "avalanche photodiode",
+      "aliases": [],
+      "priority": "domain",
+      "id": 573
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "APD",
+      "aliases": [],
+      "priority": "domain",
+      "id": 574
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "photomultiplier tube",
+      "aliases": [],
+      "priority": "domain",
+      "id": 575
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "PMT",
+      "aliases": [],
+      "priority": "domain",
+      "id": 576
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "energy resolution",
+      "aliases": [],
+      "priority": "domain",
+      "id": 577
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "spatial resolution",
+      "aliases": [],
+      "priority": "domain",
+      "id": 578
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "temporal resolution",
+      "aliases": [],
+      "priority": "domain",
+      "id": 579
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "pixel size",
+      "aliases": [],
+      "priority": "domain",
+      "id": 580
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "effective pixel size",
+      "aliases": [],
+      "priority": "domain",
+      "id": 581
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "field of view",
+      "aliases": [],
+      "priority": "domain",
+      "id": 582
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "dynamic range",
+      "aliases": [],
+      "priority": "domain",
+      "id": 583
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "bit depth",
+      "aliases": [],
+      "priority": "domain",
+      "id": 584
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "full well capacity",
+      "aliases": [],
+      "priority": "domain",
+      "id": 585
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "readout noise",
+      "aliases": [],
+      "priority": "domain",
+      "id": 586
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "dark current",
+      "aliases": [],
+      "priority": "domain",
+      "id": 587
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "shot noise",
+      "aliases": [],
+      "priority": "domain",
+      "id": 588
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "Poisson noise",
+      "aliases": [],
+      "priority": "domain",
+      "id": 589
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "gain",
+      "aliases": [],
+      "priority": "domain",
+      "id": 590
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "conversion gain",
+      "aliases": [],
+      "priority": "domain",
+      "id": 591
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "detector gain",
+      "aliases": [],
+      "priority": "domain",
+      "id": 592
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "count rate",
+      "aliases": [],
+      "priority": "domain",
+      "id": 593
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "dead time",
+      "aliases": [],
+      "priority": "domain",
+      "id": 594
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "pile-up",
+      "aliases": [],
+      "priority": "domain",
+      "id": 595
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "charge sharing",
+      "aliases": [],
+      "priority": "domain",
+      "id": 596
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "detector point spread function",
+      "aliases": [],
+      "priority": "domain",
+      "id": 597
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "detective quantum efficiency",
+      "aliases": [],
+      "priority": "domain",
+      "id": 598
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "DQE",
+      "aliases": [],
+      "priority": "domain",
+      "id": 599
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "quantum efficiency",
+      "aliases": [],
+      "priority": "domain",
+      "id": 600
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "exposure time",
+      "aliases": [],
+      "priority": "domain",
+      "id": 601
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "integration time",
+      "aliases": [],
+      "priority": "domain",
+      "id": 602
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "frame rate",
+      "aliases": [],
+      "priority": "domain",
+      "id": 603
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "readout rate",
+      "aliases": [],
+      "priority": "domain",
+      "id": 604
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "trigger mode",
+      "aliases": [],
+      "priority": "domain",
+      "id": 605
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "external trigger",
+      "aliases": [],
+      "priority": "domain",
+      "id": 606
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "internal trigger",
+      "aliases": [],
+      "priority": "domain",
+      "id": 607
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "continuous acquisition",
+      "aliases": [],
+      "priority": "domain",
+      "id": 608
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "burst mode",
+      "aliases": [],
+      "priority": "domain",
+      "id": 609
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "region of interest",
+      "aliases": [],
+      "priority": "domain",
+      "id": 610
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "ROI",
+      "aliases": [],
+      "priority": "domain",
+      "id": 611
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "binning",
+      "aliases": [],
+      "priority": "domain",
+      "id": 612
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "hardware binning",
+      "aliases": [],
+      "priority": "domain",
+      "id": 613
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "software binning",
+      "aliases": [],
+      "priority": "domain",
+      "id": 614
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "flat-field image",
+      "aliases": [],
+      "priority": "domain",
+      "id": 615
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "dark-field image",
+      "aliases": [],
+      "priority": "domain",
+      "id": 616
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "dark-current correction",
+      "aliases": [],
+      "priority": "domain",
+      "id": 617
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "bad pixel map",
+      "aliases": [],
+      "priority": "domain",
+      "id": 618
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "dead pixel",
+      "aliases": [],
+      "priority": "domain",
+      "id": 619
+    },
+    {
+      "category": "detectors_acquisition",
+      "canonical_term": "hot pixel",
+      "aliases": [],
+      "priority": "domain",
+      "id": 620
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "machine learning",
+      "aliases": [
+        "l learning",
+        "l-learning",
+        "el learning"
+      ],
+      "priority": "core",
+      "id": 621
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "deep learning",
+      "aliases": [],
+      "priority": "core",
+      "id": 622
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "autoencoder",
+      "aliases": [
+        "auto encoder",
+        "auto encoders",
+        "autoencoders"
+      ],
+      "priority": "core",
+      "id": 623
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "U-Net",
+      "aliases": [
+        "U net",
+        "UNet"
+      ],
+      "priority": "core",
+      "id": 624
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "image segmentation",
+      "aliases": [],
+      "priority": "core",
+      "id": 625
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "image denoising",
+      "aliases": [],
+      "priority": "core",
+      "id": 626
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "artificial intelligence",
+      "aliases": [],
+      "priority": "domain",
+      "id": 627
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "AI",
+      "aliases": [],
+      "priority": "domain",
+      "id": 628
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "neural network",
+      "aliases": [],
+      "priority": "domain",
+      "id": 629
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "artificial neural network",
+      "aliases": [],
+      "priority": "domain",
+      "id": 630
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "convolutional neural network",
+      "aliases": [],
+      "priority": "domain",
+      "id": 631
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "CNN",
+      "aliases": [],
+      "priority": "domain",
+      "id": 632
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "recurrent neural network",
+      "aliases": [],
+      "priority": "domain",
+      "id": 633
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "RNN",
+      "aliases": [],
+      "priority": "domain",
+      "id": 634
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "long short-term memory",
+      "aliases": [],
+      "priority": "domain",
+      "id": 635
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "LSTM",
+      "aliases": [],
+      "priority": "domain",
+      "id": 636
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "transformer",
+      "aliases": [],
+      "priority": "domain",
+      "id": 637
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "vision transformer",
+      "aliases": [],
+      "priority": "domain",
+      "id": 638
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "ViT",
+      "aliases": [],
+      "priority": "domain",
+      "id": 639
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "graph neural network",
+      "aliases": [],
+      "priority": "domain",
+      "id": 640
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "GNN",
+      "aliases": [],
+      "priority": "domain",
+      "id": 641
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "multilayer perceptron",
+      "aliases": [],
+      "priority": "domain",
+      "id": 642
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "MLP",
+      "aliases": [],
+      "priority": "domain",
+      "id": 643
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "convolutional autoencoder",
+      "aliases": [],
+      "priority": "domain",
+      "id": 644
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "variational autoencoder",
+      "aliases": [],
+      "priority": "domain",
+      "id": 645
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "VAE",
+      "aliases": [],
+      "priority": "domain",
+      "id": 646
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "denoising autoencoder",
+      "aliases": [],
+      "priority": "domain",
+      "id": 647
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "sparse autoencoder",
+      "aliases": [],
+      "priority": "domain",
+      "id": 648
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "generative adversarial network",
+      "aliases": [],
+      "priority": "domain",
+      "id": 649
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "GAN",
+      "aliases": [],
+      "priority": "domain",
+      "id": 650
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "conditional GAN",
+      "aliases": [],
+      "priority": "domain",
+      "id": 651
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "CycleGAN",
+      "aliases": [],
+      "priority": "domain",
+      "id": 652
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "Wasserstein GAN",
+      "aliases": [],
+      "priority": "domain",
+      "id": 653
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "3D U-Net",
+      "aliases": [],
+      "priority": "domain",
+      "id": 654
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "residual U-Net",
+      "aliases": [],
+      "priority": "domain",
+      "id": 655
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "attention U-Net",
+      "aliases": [],
+      "priority": "domain",
+      "id": 656
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "ResNet",
+      "aliases": [],
+      "priority": "domain",
+      "id": 657
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "VGG19",
+      "aliases": [
+        "VGG 19",
+        "V G G nineteen"
+      ],
+      "priority": "domain",
+      "id": 658
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "DenseNet",
+      "aliases": [],
+      "priority": "domain",
+      "id": 659
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "EfficientNet",
+      "aliases": [],
+      "priority": "domain",
+      "id": 660
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "Mask R-CNN",
+      "aliases": [],
+      "priority": "domain",
+      "id": 661
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "YOLO",
+      "aliases": [],
+      "priority": "domain",
+      "id": 662
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "support vector machine",
+      "aliases": [],
+      "priority": "domain",
+      "id": 663
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "SVM",
+      "aliases": [],
+      "priority": "domain",
+      "id": 664
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "naive Bayes",
+      "aliases": [],
+      "priority": "domain",
+      "id": 665
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "random forest",
+      "aliases": [],
+      "priority": "domain",
+      "id": 666
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "gradient boosting",
+      "aliases": [],
+      "priority": "domain",
+      "id": 667
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "XGBoost",
+      "aliases": [],
+      "priority": "domain",
+      "id": 668
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "k-nearest neighbors",
+      "aliases": [],
+      "priority": "domain",
+      "id": 669
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "KNN",
+      "aliases": [],
+      "priority": "domain",
+      "id": 670
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "principal component analysis",
+      "aliases": [],
+      "priority": "domain",
+      "id": 671
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "PCA",
+      "aliases": [],
+      "priority": "domain",
+      "id": 672
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "independent component analysis",
+      "aliases": [],
+      "priority": "domain",
+      "id": 673
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "ICA",
+      "aliases": [],
+      "priority": "domain",
+      "id": 674
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "nonnegative matrix factorization",
+      "aliases": [],
+      "priority": "domain",
+      "id": 675
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "NMF",
+      "aliases": [],
+      "priority": "domain",
+      "id": 676
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "clustering",
+      "aliases": [],
+      "priority": "domain",
+      "id": 677
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "k-means clustering",
+      "aliases": [],
+      "priority": "domain",
+      "id": 678
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "DBSCAN",
+      "aliases": [],
+      "priority": "domain",
+      "id": 679
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "hierarchical clustering",
+      "aliases": [],
+      "priority": "domain",
+      "id": 680
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "object detection",
+      "aliases": [],
+      "priority": "domain",
+      "id": 681
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "image classification",
+      "aliases": [],
+      "priority": "domain",
+      "id": 682
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "semantic segmentation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 683
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "instance segmentation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 684
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "binary segmentation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 685
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "multi-class segmentation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 686
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "feature extraction",
+      "aliases": [],
+      "priority": "domain",
+      "id": 687
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "feature engineering",
+      "aliases": [],
+      "priority": "domain",
+      "id": 688
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "noise reduction",
+      "aliases": [],
+      "priority": "domain",
+      "id": 689
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "image deblurring",
+      "aliases": [],
+      "priority": "domain",
+      "id": 690
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "super-resolution",
+      "aliases": [],
+      "priority": "domain",
+      "id": 691
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "image restoration",
+      "aliases": [],
+      "priority": "domain",
+      "id": 692
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "artifact removal",
+      "aliases": [],
+      "priority": "domain",
+      "id": 693
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "background removal",
+      "aliases": [],
+      "priority": "domain",
+      "id": 694
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "anomaly detection",
+      "aliases": [],
+      "priority": "domain",
+      "id": 695
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "outlier detection",
+      "aliases": [],
+      "priority": "domain",
+      "id": 696
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "data augmentation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 697
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "transfer learning",
+      "aliases": [],
+      "priority": "domain",
+      "id": 698
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "fine-tuning",
+      "aliases": [],
+      "priority": "domain",
+      "id": 699
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "self-supervised learning",
+      "aliases": [],
+      "priority": "domain",
+      "id": 700
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "semi-supervised learning",
+      "aliases": [],
+      "priority": "domain",
+      "id": 701
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "unsupervised learning",
+      "aliases": [],
+      "priority": "domain",
+      "id": 702
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "supervised learning",
+      "aliases": [],
+      "priority": "domain",
+      "id": 703
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "reinforcement learning",
+      "aliases": [],
+      "priority": "domain",
+      "id": 704
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "physics-informed neural network",
+      "aliases": [],
+      "priority": "domain",
+      "id": 705
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "PINN",
+      "aliases": [],
+      "priority": "domain",
+      "id": 706
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "physics-guided machine learning",
+      "aliases": [],
+      "priority": "domain",
+      "id": 707
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "scientific machine learning",
+      "aliases": [],
+      "priority": "domain",
+      "id": 708
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "operator learning",
+      "aliases": [],
+      "priority": "domain",
+      "id": 709
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "neural operator",
+      "aliases": [],
+      "priority": "domain",
+      "id": 710
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "Fourier neural operator",
+      "aliases": [],
+      "priority": "domain",
+      "id": 711
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "FNO",
+      "aliases": [],
+      "priority": "domain",
+      "id": 712
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "deep image prior",
+      "aliases": [],
+      "priority": "domain",
+      "id": 713
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "Noise2Noise",
+      "aliases": [],
+      "priority": "domain",
+      "id": 714
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "Noise2Void",
+      "aliases": [],
+      "priority": "domain",
+      "id": 715
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "Noise2Inverse",
+      "aliases": [],
+      "priority": "domain",
+      "id": 716
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "contrastive learning",
+      "aliases": [],
+      "priority": "domain",
+      "id": 717
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "metric learning",
+      "aliases": [],
+      "priority": "domain",
+      "id": 718
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "embedding model",
+      "aliases": [],
+      "priority": "domain",
+      "id": 719
+    },
+    {
+      "category": "ai_ml_image_processing",
+      "canonical_term": "feature embedding",
+      "aliases": [],
+      "priority": "domain",
+      "id": 720
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "Python",
+      "aliases": [],
+      "priority": "core",
+      "id": 721
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "MATLAB",
+      "aliases": [
+        "mat lab",
+        "matlib",
+        "mat lab software"
+      ],
+      "priority": "core",
+      "id": 722
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "PyTorch",
+      "aliases": [
+        "pie torch",
+        "py torch"
+      ],
+      "priority": "core",
+      "id": 723
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "CUDA",
+      "aliases": [],
+      "priority": "core",
+      "id": 724
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "Maxwell cluster",
+      "aliases": [
+        "Maxwell",
+        "Maxwell compute cluster"
+      ],
+      "priority": "core",
+      "id": 725
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "pyFAI",
+      "aliases": [
+        "pie F A I",
+        "py F A I",
+        "py fai",
+        "PyPhy",
+        "py phy",
+        "pie phi",
+        "py phi"
+      ],
+      "priority": "core",
+      "id": 726
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "LaTeX",
+      "aliases": [
+        "lay tech",
+        "late tech"
+      ],
+      "priority": "core",
+      "id": 727
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "C",
+      "aliases": [],
+      "priority": "domain",
+      "id": 728
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "C++",
+      "aliases": [],
+      "priority": "domain",
+      "id": 729
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "Fortran",
+      "aliases": [],
+      "priority": "domain",
+      "id": 730
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "Spyder",
+      "aliases": [],
+      "priority": "domain",
+      "id": 731
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "Jupyter Notebook",
+      "aliases": [
+        "Jupiter notebook"
+      ],
+      "priority": "domain",
+      "id": 732
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "JupyterLab",
+      "aliases": [],
+      "priority": "domain",
+      "id": 733
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "NumPy",
+      "aliases": [],
+      "priority": "domain",
+      "id": 734
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "SciPy",
+      "aliases": [],
+      "priority": "domain",
+      "id": 735
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "Matplotlib",
+      "aliases": [],
+      "priority": "domain",
+      "id": 736
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "Pandas",
+      "aliases": [],
+      "priority": "domain",
+      "id": 737
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "scikit-image",
+      "aliases": [],
+      "priority": "domain",
+      "id": 738
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "scikit-learn",
+      "aliases": [
+        "sci kit learn",
+        "scikit learn"
+      ],
+      "priority": "domain",
+      "id": 739
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "TensorFlow",
+      "aliases": [
+        "tensor flow"
+      ],
+      "priority": "domain",
+      "id": 740
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "Keras",
+      "aliases": [],
+      "priority": "domain",
+      "id": 741
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "torchvision",
+      "aliases": [],
+      "priority": "domain",
+      "id": 742
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "OpenCV",
+      "aliases": [
+        "open C V"
+      ],
+      "priority": "domain",
+      "id": 743
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "OpenMP",
+      "aliases": [
+        "open M P"
+      ],
+      "priority": "domain",
+      "id": 744
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "MPI",
+      "aliases": [],
+      "priority": "domain",
+      "id": 745
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "cuDNN",
+      "aliases": [],
+      "priority": "domain",
+      "id": 746
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "CMake",
+      "aliases": [],
+      "priority": "domain",
+      "id": 747
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "Git",
+      "aliases": [],
+      "priority": "domain",
+      "id": 748
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "GitHub",
+      "aliases": [],
+      "priority": "domain",
+      "id": 749
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "GitLab",
+      "aliases": [],
+      "priority": "domain",
+      "id": 750
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "Docker",
+      "aliases": [],
+      "priority": "domain",
+      "id": 751
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "Singularity",
+      "aliases": [],
+      "priority": "domain",
+      "id": 752
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "Apptainer",
+      "aliases": [],
+      "priority": "domain",
+      "id": 753
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "Conda",
+      "aliases": [],
+      "priority": "domain",
+      "id": 754
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "Mamba",
+      "aliases": [],
+      "priority": "domain",
+      "id": 755
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "virtual environment",
+      "aliases": [],
+      "priority": "domain",
+      "id": 756
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "pip",
+      "aliases": [],
+      "priority": "domain",
+      "id": 757
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "Linux",
+      "aliases": [],
+      "priority": "domain",
+      "id": 758
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "PowerShell",
+      "aliases": [],
+      "priority": "domain",
+      "id": 759
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "Bash",
+      "aliases": [],
+      "priority": "domain",
+      "id": 760
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "SLURM",
+      "aliases": [],
+      "priority": "domain",
+      "id": 761
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "batch job",
+      "aliases": [],
+      "priority": "domain",
+      "id": 762
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "job scheduler",
+      "aliases": [],
+      "priority": "domain",
+      "id": 763
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "compute node",
+      "aliases": [],
+      "priority": "domain",
+      "id": 764
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "GPU node",
+      "aliases": [],
+      "priority": "domain",
+      "id": 765
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "CPU node",
+      "aliases": [],
+      "priority": "domain",
+      "id": 766
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "high-performance computing",
+      "aliases": [
+        "high performance computing"
+      ],
+      "priority": "domain",
+      "id": 767
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "HPC",
+      "aliases": [],
+      "priority": "domain",
+      "id": 768
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "parallel computing",
+      "aliases": [],
+      "priority": "domain",
+      "id": 769
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "parallelization",
+      "aliases": [],
+      "priority": "domain",
+      "id": 770
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "multi-threading",
+      "aliases": [],
+      "priority": "domain",
+      "id": 771
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "multi-processing",
+      "aliases": [],
+      "priority": "domain",
+      "id": 772
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "distributed computing",
+      "aliases": [],
+      "priority": "domain",
+      "id": 773
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "data parallelism",
+      "aliases": [],
+      "priority": "domain",
+      "id": 774
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "model parallelism",
+      "aliases": [],
+      "priority": "domain",
+      "id": 775
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "mixed-precision training",
+      "aliases": [],
+      "priority": "domain",
+      "id": 776
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "automatic mixed precision",
+      "aliases": [],
+      "priority": "domain",
+      "id": 777
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "AMP",
+      "aliases": [],
+      "priority": "domain",
+      "id": 778
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "CUDA kernel",
+      "aliases": [],
+      "priority": "domain",
+      "id": 779
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "GPU memory",
+      "aliases": [],
+      "priority": "domain",
+      "id": 780
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "out-of-memory error",
+      "aliases": [],
+      "priority": "domain",
+      "id": 781
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "memory profiling",
+      "aliases": [],
+      "priority": "domain",
+      "id": 782
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "performance profiling",
+      "aliases": [],
+      "priority": "domain",
+      "id": 783
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "SSH",
+      "aliases": [],
+      "priority": "domain",
+      "id": 784
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "remote login",
+      "aliases": [],
+      "priority": "domain",
+      "id": 785
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "file system",
+      "aliases": [],
+      "priority": "domain",
+      "id": 786
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "Lustre file system",
+      "aliases": [],
+      "priority": "domain",
+      "id": 787
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "GPFS",
+      "aliases": [],
+      "priority": "domain",
+      "id": 788
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "h5py",
+      "aliases": [],
+      "priority": "domain",
+      "id": 789
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "Zarr",
+      "aliases": [],
+      "priority": "domain",
+      "id": 790
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "NumPy array",
+      "aliases": [],
+      "priority": "domain",
+      "id": 791
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "memory mapping",
+      "aliases": [],
+      "priority": "domain",
+      "id": 792
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "Dask",
+      "aliases": [],
+      "priority": "domain",
+      "id": 793
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "Ray",
+      "aliases": [],
+      "priority": "domain",
+      "id": 794
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "FastAPI",
+      "aliases": [],
+      "priority": "domain",
+      "id": 795
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "WebSocket",
+      "aliases": [],
+      "priority": "domain",
+      "id": 796
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "REST API",
+      "aliases": [],
+      "priority": "domain",
+      "id": 797
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "SQLAlchemy",
+      "aliases": [],
+      "priority": "domain",
+      "id": 798
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "SQLite",
+      "aliases": [],
+      "priority": "domain",
+      "id": 799
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "PostgreSQL",
+      "aliases": [],
+      "priority": "domain",
+      "id": 800
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "FAISS",
+      "aliases": [],
+      "priority": "domain",
+      "id": 801
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "ChromaDB",
+      "aliases": [],
+      "priority": "domain",
+      "id": 802
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "Ollama",
+      "aliases": [
+        "llama"
+      ],
+      "priority": "domain",
+      "id": 803
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "Whisper",
+      "aliases": [],
+      "priority": "domain",
+      "id": 804
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "faster-whisper",
+      "aliases": [],
+      "priority": "domain",
+      "id": 805
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "simulation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 806
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "beamline simulation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 807
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "X-ray optics simulation",
+      "aliases": [
+        "X ray optics simulation"
+      ],
+      "priority": "domain",
+      "id": 808
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "wave propagation simulation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 809
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "Monte Carlo simulation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 810
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "Monte Carlo ray tracing",
+      "aliases": [],
+      "priority": "domain",
+      "id": 811
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "X-ray matter interaction",
+      "aliases": [
+        "X ray matter interaction"
+      ],
+      "priority": "domain",
+      "id": 812
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "photon transport",
+      "aliases": [],
+      "priority": "domain",
+      "id": 813
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "electron transport",
+      "aliases": [],
+      "priority": "domain",
+      "id": 814
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "particle transport",
+      "aliases": [],
+      "priority": "domain",
+      "id": 815
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "Geant4",
+      "aliases": [],
+      "priority": "domain",
+      "id": 816
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "FLUKA",
+      "aliases": [],
+      "priority": "domain",
+      "id": 817
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "PENELOPE",
+      "aliases": [],
+      "priority": "domain",
+      "id": 818
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "McXtrace",
+      "aliases": [],
+      "priority": "domain",
+      "id": 819
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "SHADOW",
+      "aliases": [],
+      "priority": "domain",
+      "id": 820
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "ShadowOui",
+      "aliases": [],
+      "priority": "domain",
+      "id": 821
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "OASYS",
+      "aliases": [],
+      "priority": "domain",
+      "id": 822
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "SRW",
+      "aliases": [],
+      "priority": "domain",
+      "id": 823
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "Synchrotron Radiation Workshop",
+      "aliases": [],
+      "priority": "domain",
+      "id": 824
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "wavefront propagation simulation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 825
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "Fresnel propagation simulation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 826
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "finite-difference method",
+      "aliases": [],
+      "priority": "domain",
+      "id": 827
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "finite-element method",
+      "aliases": [],
+      "priority": "domain",
+      "id": 828
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "boundary-element method",
+      "aliases": [],
+      "priority": "domain",
+      "id": 829
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "spectral method",
+      "aliases": [],
+      "priority": "domain",
+      "id": 830
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "pseudo-spectral method",
+      "aliases": [],
+      "priority": "domain",
+      "id": 831
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "finite-volume method",
+      "aliases": [],
+      "priority": "domain",
+      "id": 832
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "fast Fourier transform",
+      "aliases": [],
+      "priority": "domain",
+      "id": 833
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "FFT",
+      "aliases": [],
+      "priority": "domain",
+      "id": 834
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "inverse fast Fourier transform",
+      "aliases": [],
+      "priority": "domain",
+      "id": 835
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "IFFT",
+      "aliases": [],
+      "priority": "domain",
+      "id": 836
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "convolution",
+      "aliases": [],
+      "priority": "domain",
+      "id": 837
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "cross-correlation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 838
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "autocorrelation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 839
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "interpolation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 840
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "nearest-neighbor interpolation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 841
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "bilinear interpolation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 842
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "bicubic interpolation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 843
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "spline interpolation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 844
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "resampling",
+      "aliases": [],
+      "priority": "domain",
+      "id": 845
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "oversampling",
+      "aliases": [],
+      "priority": "domain",
+      "id": 846
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "zero padding",
+      "aliases": [],
+      "priority": "domain",
+      "id": 847
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "Fourier padding",
+      "aliases": [],
+      "priority": "domain",
+      "id": 848
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "numerical integration",
+      "aliases": [],
+      "priority": "domain",
+      "id": 849
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "numerical differentiation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 850
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "ordinary differential equation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 851
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "ODE",
+      "aliases": [],
+      "priority": "domain",
+      "id": 852
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "partial differential equation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 853
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "PDE",
+      "aliases": [],
+      "priority": "domain",
+      "id": 854
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "linear solver",
+      "aliases": [],
+      "priority": "domain",
+      "id": 855
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "nonlinear solver",
+      "aliases": [],
+      "priority": "domain",
+      "id": 856
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "iterative solver",
+      "aliases": [],
+      "priority": "domain",
+      "id": 857
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "direct solver",
+      "aliases": [],
+      "priority": "domain",
+      "id": 858
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "conjugate gradient",
+      "aliases": [],
+      "priority": "domain",
+      "id": 859
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "preconditioned conjugate gradient",
+      "aliases": [],
+      "priority": "domain",
+      "id": 860
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "GMRES",
+      "aliases": [],
+      "priority": "domain",
+      "id": 861
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "LSQR",
+      "aliases": [],
+      "priority": "domain",
+      "id": 862
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "gradient descent",
+      "aliases": [],
+      "priority": "domain",
+      "id": 863
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "stochastic gradient descent",
+      "aliases": [],
+      "priority": "domain",
+      "id": 864
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "Adam optimizer",
+      "aliases": [],
+      "priority": "domain",
+      "id": 865
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "L-BFGS",
+      "aliases": [],
+      "priority": "domain",
+      "id": 866
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "Newton method",
+      "aliases": [],
+      "priority": "domain",
+      "id": 867
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "Gauss–Newton method",
+      "aliases": [],
+      "priority": "domain",
+      "id": 868
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "Levenberg–Marquardt algorithm",
+      "aliases": [],
+      "priority": "domain",
+      "id": 869
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "alternating direction method of multipliers",
+      "aliases": [],
+      "priority": "domain",
+      "id": 870
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "ADMM",
+      "aliases": [],
+      "priority": "domain",
+      "id": 871
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "proximal gradient",
+      "aliases": [],
+      "priority": "domain",
+      "id": 872
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "FISTA",
+      "aliases": [],
+      "priority": "domain",
+      "id": 873
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "ISTA",
+      "aliases": [],
+      "priority": "domain",
+      "id": 874
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "coordinate descent",
+      "aliases": [],
+      "priority": "domain",
+      "id": 875
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "convex optimization",
+      "aliases": [],
+      "priority": "domain",
+      "id": 876
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "nonconvex optimization",
+      "aliases": [],
+      "priority": "domain",
+      "id": 877
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "constrained optimization",
+      "aliases": [],
+      "priority": "domain",
+      "id": 878
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "unconstrained optimization",
+      "aliases": [],
+      "priority": "domain",
+      "id": 879
+    },
+    {
+      "category": "simulation_optimization",
+      "canonical_term": "multi-objective optimization",
+      "aliases": [],
+      "priority": "domain",
+      "id": 880
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "experimental setup",
+      "aliases": [],
+      "priority": "domain",
+      "id": 881
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "sample environment",
+      "aliases": [],
+      "priority": "domain",
+      "id": 882
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "sample holder",
+      "aliases": [],
+      "priority": "domain",
+      "id": 883
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "sample mount",
+      "aliases": [],
+      "priority": "domain",
+      "id": 884
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "sample stage",
+      "aliases": [],
+      "priority": "domain",
+      "id": 885
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "rotation stage",
+      "aliases": [],
+      "priority": "domain",
+      "id": 886
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "translation stage",
+      "aliases": [],
+      "priority": "domain",
+      "id": 887
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "piezo stage",
+      "aliases": [],
+      "priority": "domain",
+      "id": 888
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "nanopositioning",
+      "aliases": [],
+      "priority": "domain",
+      "id": 889
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "interferometry",
+      "aliases": [],
+      "priority": "domain",
+      "id": 890
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "laser interferometer",
+      "aliases": [],
+      "priority": "domain",
+      "id": 891
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "capacitive sensor",
+      "aliases": [],
+      "priority": "domain",
+      "id": 892
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "encoder",
+      "aliases": [],
+      "priority": "domain",
+      "id": 893
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "closed-loop control",
+      "aliases": [],
+      "priority": "domain",
+      "id": 894
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "open-loop control",
+      "aliases": [],
+      "priority": "domain",
+      "id": 895
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "position feedback",
+      "aliases": [],
+      "priority": "domain",
+      "id": 896
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "vibration isolation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 897
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "active vibration control",
+      "aliases": [],
+      "priority": "domain",
+      "id": 898
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "thermal stabilization",
+      "aliases": [],
+      "priority": "domain",
+      "id": 899
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "temperature controller",
+      "aliases": [],
+      "priority": "domain",
+      "id": 900
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "cryostat",
+      "aliases": [],
+      "priority": "domain",
+      "id": 901
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "heating stage",
+      "aliases": [],
+      "priority": "domain",
+      "id": 902
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "cooling stage",
+      "aliases": [],
+      "priority": "domain",
+      "id": 903
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "vacuum furnace",
+      "aliases": [],
+      "priority": "domain",
+      "id": 904
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "pressure cell",
+      "aliases": [],
+      "priority": "domain",
+      "id": 905
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "flow cell",
+      "aliases": [],
+      "priority": "domain",
+      "id": 906
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "reaction cell",
+      "aliases": [],
+      "priority": "domain",
+      "id": 907
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "in situ measurement",
+      "aliases": [],
+      "priority": "domain",
+      "id": 908
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "operando measurement",
+      "aliases": [],
+      "priority": "domain",
+      "id": 909
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "ex situ measurement",
+      "aliases": [],
+      "priority": "domain",
+      "id": 910
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "time-resolved measurement",
+      "aliases": [
+        "time resolved measurement"
+      ],
+      "priority": "domain",
+      "id": 911
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "pump-probe experiment",
+      "aliases": [],
+      "priority": "domain",
+      "id": 912
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "sample preparation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 913
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "focused ion beam",
+      "aliases": [],
+      "priority": "domain",
+      "id": 914
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "FIB",
+      "aliases": [],
+      "priority": "domain",
+      "id": 915
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "scanning electron microscopy",
+      "aliases": [],
+      "priority": "domain",
+      "id": 916
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "SEM",
+      "aliases": [],
+      "priority": "domain",
+      "id": 917
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "transmission electron microscopy",
+      "aliases": [],
+      "priority": "domain",
+      "id": 918
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "TEM",
+      "aliases": [],
+      "priority": "domain",
+      "id": 919
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "scanning transmission electron microscopy",
+      "aliases": [],
+      "priority": "domain",
+      "id": 920
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "STEM",
+      "aliases": [],
+      "priority": "domain",
+      "id": 921
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "atomic force microscopy",
+      "aliases": [],
+      "priority": "domain",
+      "id": 922
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "AFM",
+      "aliases": [],
+      "priority": "domain",
+      "id": 923
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "optical microscopy",
+      "aliases": [],
+      "priority": "domain",
+      "id": 924
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "confocal microscopy",
+      "aliases": [],
+      "priority": "domain",
+      "id": 925
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "thin-film deposition",
+      "aliases": [],
+      "priority": "domain",
+      "id": 926
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "physical vapor deposition",
+      "aliases": [],
+      "priority": "domain",
+      "id": 927
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "PVD",
+      "aliases": [],
+      "priority": "domain",
+      "id": 928
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "chemical vapor deposition",
+      "aliases": [],
+      "priority": "domain",
+      "id": 929
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "CVD",
+      "aliases": [],
+      "priority": "domain",
+      "id": 930
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "atomic layer deposition",
+      "aliases": [],
+      "priority": "domain",
+      "id": 931
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "ALD",
+      "aliases": [],
+      "priority": "domain",
+      "id": 932
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "sputter deposition",
+      "aliases": [],
+      "priority": "domain",
+      "id": 933
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "magnetron sputtering",
+      "aliases": [],
+      "priority": "domain",
+      "id": 934
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "thermal evaporation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 935
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "electron-beam evaporation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 936
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "spin coating",
+      "aliases": [],
+      "priority": "domain",
+      "id": 937
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "dip coating",
+      "aliases": [],
+      "priority": "domain",
+      "id": 938
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "blade coating",
+      "aliases": [],
+      "priority": "domain",
+      "id": 939
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "spray coating",
+      "aliases": [],
+      "priority": "domain",
+      "id": 940
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "annealing",
+      "aliases": [],
+      "priority": "domain",
+      "id": 941
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "rapid thermal annealing",
+      "aliases": [],
+      "priority": "domain",
+      "id": 942
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "calcination",
+      "aliases": [],
+      "priority": "domain",
+      "id": 943
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "crystallization",
+      "aliases": [],
+      "priority": "domain",
+      "id": 944
+    },
+    {
+      "category": "experimental_materials",
+      "canonical_term": "nucleation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 945
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "scientific writing",
+      "aliases": [],
+      "priority": "domain",
+      "id": 946
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "technical writing",
+      "aliases": [],
+      "priority": "domain",
+      "id": 947
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "academic writing",
+      "aliases": [],
+      "priority": "domain",
+      "id": 948
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "manuscript",
+      "aliases": [],
+      "priority": "domain",
+      "id": 949
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "research paper",
+      "aliases": [],
+      "priority": "domain",
+      "id": 950
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "journal article",
+      "aliases": [],
+      "priority": "domain",
+      "id": 951
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "conference paper",
+      "aliases": [],
+      "priority": "domain",
+      "id": 952
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "conference abstract",
+      "aliases": [],
+      "priority": "domain",
+      "id": 953
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "extended abstract",
+      "aliases": [],
+      "priority": "domain",
+      "id": 954
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "scientific report",
+      "aliases": [],
+      "priority": "domain",
+      "id": 955
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "technical report",
+      "aliases": [],
+      "priority": "domain",
+      "id": 956
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "progress report",
+      "aliases": [],
+      "priority": "domain",
+      "id": 957
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "annual report",
+      "aliases": [],
+      "priority": "domain",
+      "id": 958
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "executive summary",
+      "aliases": [],
+      "priority": "domain",
+      "id": 959
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "abstract",
+      "aliases": [],
+      "priority": "domain",
+      "id": 960
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "introduction",
+      "aliases": [],
+      "priority": "domain",
+      "id": 961
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "methods section",
+      "aliases": [],
+      "priority": "domain",
+      "id": 962
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "results section",
+      "aliases": [],
+      "priority": "domain",
+      "id": 963
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "discussion section",
+      "aliases": [],
+      "priority": "domain",
+      "id": 964
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "conclusion",
+      "aliases": [],
+      "priority": "domain",
+      "id": 965
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "supplementary information",
+      "aliases": [],
+      "priority": "domain",
+      "id": 966
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "figure caption",
+      "aliases": [],
+      "priority": "domain",
+      "id": 967
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "table caption",
+      "aliases": [],
+      "priority": "domain",
+      "id": 968
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "cover letter",
+      "aliases": [],
+      "priority": "domain",
+      "id": 969
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "response to reviewers",
+      "aliases": [],
+      "priority": "domain",
+      "id": 970
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "reviewer comment",
+      "aliases": [],
+      "priority": "domain",
+      "id": 971
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "peer review",
+      "aliases": [],
+      "priority": "domain",
+      "id": 972
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "revision letter",
+      "aliases": [],
+      "priority": "domain",
+      "id": 973
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "proofreading",
+      "aliases": [],
+      "priority": "domain",
+      "id": 974
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "copy editing",
+      "aliases": [],
+      "priority": "domain",
+      "id": 975
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "citation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 976
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "reference management",
+      "aliases": [],
+      "priority": "domain",
+      "id": 977
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "bibliography",
+      "aliases": [],
+      "priority": "domain",
+      "id": 978
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "scientific presentation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 979
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "conference presentation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 980
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "poster presentation",
+      "aliases": [],
+      "priority": "domain",
+      "id": 981
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "strategic proposal writing",
+      "aliases": [],
+      "priority": "domain",
+      "id": 982
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "research proposal",
+      "aliases": [],
+      "priority": "domain",
+      "id": 983
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "project proposal",
+      "aliases": [],
+      "priority": "domain",
+      "id": 984
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "grant proposal",
+      "aliases": [],
+      "priority": "domain",
+      "id": 985
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "funding application",
+      "aliases": [],
+      "priority": "domain",
+      "id": 986
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "call text",
+      "aliases": [],
+      "priority": "domain",
+      "id": 987
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "call topic",
+      "aliases": [],
+      "priority": "domain",
+      "id": 988
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "scope",
+      "aliases": [],
+      "priority": "domain",
+      "id": 989
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "scientific excellence",
+      "aliases": [],
+      "priority": "domain",
+      "id": 990
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "state of the art",
+      "aliases": [],
+      "priority": "domain",
+      "id": 991
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "research gap",
+      "aliases": [],
+      "priority": "domain",
+      "id": 992
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "project objective",
+      "aliases": [],
+      "priority": "domain",
+      "id": 993
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "specific objective",
+      "aliases": [],
+      "priority": "domain",
+      "id": 994
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "expected outcome",
+      "aliases": [],
+      "priority": "domain",
+      "id": 995
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "expected impact",
+      "aliases": [],
+      "priority": "domain",
+      "id": 996
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "methodology",
+      "aliases": [],
+      "priority": "domain",
+      "id": 997
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "implementation plan",
+      "aliases": [],
+      "priority": "domain",
+      "id": 998
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "work plan",
+      "aliases": [],
+      "priority": "domain",
+      "id": 999
+    },
+    {
+      "category": "writing_projects",
+      "canonical_term": "work package",
+      "aliases": [],
+      "priority": "domain",
+      "id": 1000
+    },
+    {
+      "category": "ptychography_cdi",
+      "canonical_term": "cSAXS code",
+      "aliases": [
+        "CSX code",
+        "CSAXS code",
+        "C SAXS code",
+        "CSX's code",
+        "C sax code",
+        "CSX",
+        "CSX's",
+        "cSAX",
+        "cSAXS",
+        "C SAX",
+        "C SAXS"
+      ],
+      "priority": "core",
+      "id": 1001
+    },
+    {
+      "category": "xray_optics_microscopy",
+      "canonical_term": "X-ray imaging",
+      "aliases": [
+        "x ray imaging"
+      ],
+      "priority": "core",
+      "id": 1002
+    },
+    {
+      "category": "tomography_inverse",
+      "canonical_term": "cone-beam geometry",
+      "aliases": [
+        "cone beam geometry",
+        "cone-beam"
+      ],
+      "priority": "core",
+      "id": 1003
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "scientific vocabulary",
+      "aliases": [
+        "scientific vocab workload",
+        "scientific vocab",
+        "vocab workload"
+      ],
+      "priority": "domain",
+      "id": 1004
+    },
+    {
+      "category": "software_hpc",
+      "canonical_term": "transcript alignment",
+      "aliases": [
+        "transcription alignment"
+      ],
+      "priority": "domain",
+      "id": 1005
+    }
+  ],
+  "notes": [
+    "Only a bounded active subset is sent to Whisper at any time.",
+    "Aliases are used for contextual, confidence-aware correction.",
+    "The ambiguous name Nεo 2.0 is intentionally excluded until its canonical spelling is confirmed.",
+    "Phase 5.7.1 adds reference-tested aliases for cSAXS, sCMOS, sinogram, Ollama, and slide-aware terminology."
+  ]
+}
